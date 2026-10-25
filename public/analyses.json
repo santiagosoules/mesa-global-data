@@ -1,0 +1,32 @@
+{
+  "analyses": [
+    {
+      "as_of": "2026-10-20",
+      "created_at": "2026-10-25T20:20:34+00:00",
+      "evidence_level": "derived_from_official_observations",
+      "id": "cot_nq_mnq_reconciliation_2026-10-20",
+      "mode": "weekly",
+      "payload": {
+        "corrected_conclusion": "Leveraged Funds were net short on a consolidated, NQ-equivalent basis; the NQ-only +950 net omitted the MNQ -86,381 net.",
+        "derived_consolidated_net_nq_equivalent": -7688.1,
+        "derived_weekly_change_nq_equivalent": 14202.7,
+        "methodology": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
+        "mnq_net_contracts": -86381,
+        "mnq_net_nq_equivalent": -8638.1,
+        "nq_net_contracts": 950,
+        "official_consolidated_net_nq_equivalent": -7688,
+        "official_weekly_change_nq_equivalent": 14203,
+        "rounding_note": "CFTC 20974+ is reported in whole NQ-equivalent contracts.",
+        "source_codes": {
+          "consolidated": "20974+",
+          "mnq": "209747",
+          "nq": "209742"
+        },
+        "source_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip"
+      },
+      "title": "CFTC NQ/MNQ leveraged funds reconciliation"
+    }
+  ],
+  "generated_at": "2026-10-25T20:21:30+00:00",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-25T20:21:30+00:00",
+  "schema_version": "1.1.0",
+  "sensors": [
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "cot",
+      "id": "nq_cot_asset_manager_net",
+      "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
+      "latest_as_of": "2026-10-20",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 10,
+      "name": "NQ/MNQ consolidated asset manager net",
+      "observation_count": 42,
+      "primary_source": "CFTC TFF Futures Only",
+      "unit": "nq_equivalent_contracts"
+    },
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "cot",
+      "id": "nq_cot_leveraged_funds_net",
+      "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
+      "latest_as_of": "2026-10-20",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 10,
+      "name": "NQ/MNQ consolidated leveraged funds net",
+      "observation_count": 42,
+      "primary_source": "CFTC TFF Futures Only",
+      "unit": "nq_equivalent_contracts"
+    },
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "cot",
+      "id": "nq_cot_open_interest",
+      "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
+      "latest_as_of": "2026-10-20",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 10,
+      "name": "NQ/MNQ consolidated open interest",
+      "observation_count": 42,
+      "primary_source": "CFTC TFF Futures Only",
+      "unit": "nq_equivalent_contracts"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "credit",
+      "id": "ofr_fsi_credit",
+      "instrument": "OFR Financial Stress Index credit-market contribution",
+      "latest_as_of": "2026-10-21",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "OFR FSI credit contribution",
+      "observation_count": 6785,
+      "primary_source": "Office of Financial Research",
+      "unit": "standard_deviation_contribution"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "credit",
+      "id": "ofr_fsi_us",
+      "instrument": "OFR Financial Stress Index United States contribution",
+      "latest_as_of": "2026-10-21",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "OFR FSI United States contribution",
+      "observation_count": 6785,
+      "primary_source": "Office of Financial Research",
+      "unit": "standard_deviation_contribution"
+    },
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "fed",
+      "id": "fed_balance_assets",
+      "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
+      "latest_as_of": "2026-10-21",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 12,
+      "name": "Federal Reserve total assets",
+      "observation_count": 13,
+      "primary_source": "Federal Reserve Board H.4.1",
+      "unit": "million_usd"
+    },
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "liquidity",
+      "id": "bank_reserves",
+      "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
+      "latest_as_of": "2026-10-21",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 12,
+      "name": "Reserve balances",
+      "observation_count": 13,
+      "primary_source": "Federal Reserve Board H.4.1",
+      "unit": "million_usd"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "liquidity",
+      "id": "on_rrp_usage",
+      "instrument": "NY Fed ON RRP accepted amount",
+      "latest_as_of": "2026-10-23",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "Overnight reverse repo usage",
+      "observation_count": 456,
+      "primary_source": "Federal Reserve Bank of New York",
+      "unit": "billion_usd"
+    },
+    {
+      "connected": 1,
+      "frequency": "weekly",
+      "group_name": "liquidity",
+      "id": "tga_balance",
+      "instrument": "U.S. Treasury General Account, Wednesday level",
+      "latest_as_of": "2026-10-21",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 12,
+      "name": "Treasury General Account",
+      "observation_count": 13,
+      "primary_source": "Federal Reserve Board H.4.1",
+      "unit": "million_usd"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "rates",
+      "id": "us10y_real_yield",
+      "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
+      "latest_as_of": "2026-10-23",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "U.S. Treasury 10Y real yield",
+      "observation_count": 204,
+      "primary_source": "U.S. Treasury",
+      "unit": "percent"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "rates",
+      "id": "us10y_yield",
+      "instrument": "U.S. Treasury 10-Year Constant Maturity",
+      "latest_as_of": "2026-10-23",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "U.S. Treasury 10Y yield",
+      "observation_count": 204,
+      "primary_source": "U.S. Treasury",
+      "unit": "percent"
+    },
+    {
+      "connected": 1,
+      "frequency": "daily",
+      "group_name": "rates",
+      "id": "us2y_yield",
+      "instrument": "U.S. Treasury 2-Year Constant Maturity",
+      "latest_as_of": "2026-10-23",
+      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "max_age_days": 5,
+      "name": "U.S. Treasury 2Y yield",
+      "observation_count": 204,
+      "primary_source": "U.S. Treasury",
+      "unit": "percent"
+    }
+  ],
+  "sources": [
+    {
+      "checked_at": "2026-10-25T20:20:34+00:00",
+      "source": "U.S. Commodity Futures Trading Commission",
+      "source_identifier": "cftc",
+      "status": "ok"
+    },
+    {
+      "checked_at": "2026-10-25T20:20:31+00:00",
+      "source": "Board of Governors of the Federal Reserve System",
+      "source_identifier": "h41",
+      "status": "ok"
+    },
+    {
+      "checked_at": "2026-10-25T20:20:32+00:00",
+      "source": "Federal Reserve Bank of New York",
+      "source_identifier": "nyfed",
+      "status": "ok"
+    },
+    {
+      "checked_at": "2026-10-25T20:20:33+00:00",
+      "source": "U.S. Office of Financial Research",
+      "source_identifier": "ofr",
+      "status": "ok"
+    },
+    {
+      "checked_at": "2026-10-25T20:20:29+00:00",
+      "source": "U.S. Department of the Treasury",
+      "source_identifier": "treasury",
+      "status": "ok"
+    }
+  ]
+}
