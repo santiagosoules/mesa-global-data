@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:21:30+00:00",
+  "generated_at": "2026-10-25T20:46:27+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -107,10 +107,10 @@
       "id": "on_rrp_usage",
       "instrument": "NY Fed ON RRP accepted amount",
       "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_retrieved_at": "2026-10-25T20:45:48+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 456,
+      "observation_count": 907,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -173,31 +173,31 @@
   ],
   "sources": [
     {
-      "checked_at": "2026-10-25T20:20:34+00:00",
+      "checked_at": "2026-10-25T20:46:26+00:00",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:20:31+00:00",
+      "checked_at": "2026-10-25T20:46:25+00:00",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "h41",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:20:32+00:00",
+      "checked_at": "2026-10-25T20:46:26+00:00",
       "source": "Federal Reserve Bank of New York",
       "source_identifier": "nyfed",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:20:33+00:00",
+      "checked_at": "2026-10-25T20:46:26+00:00",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:20:29+00:00",
+      "checked_at": "2026-10-25T20:46:24+00:00",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury",
       "status": "ok"
