@@ -1,0 +1,50 @@
+{
+  "source": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
+  "report": "TFF Futures Only",
+  "as_of": "2026-10-20",
+  "contracts": {
+    "209742": {
+      "CFTC_Contract_Market_Code": "209742",
+      "Report_Date_as_YYYY-MM-DD": "2026-10-20",
+      "Open_Interest_All": "272462",
+      "Change_in_Open_Interest_All": "-7053",
+      "Asset_Mgr_Positions_Long_All": "109985",
+      "Asset_Mgr_Positions_Short_All": "32195",
+      "Change_in_Asset_Mgr_Long_All": "-2619",
+      "Change_in_Asset_Mgr_Short_All": "-5086",
+      "Lev_Money_Positions_Long_All": "51749",
+      "Lev_Money_Positions_Short_All": "50799",
+      "Change_in_Lev_Money_Long_All": "3643",
+      "Change_in_Lev_Money_Short_All": "-8900"
+    },
+    "209747": {
+      "CFTC_Contract_Market_Code": "209747",
+      "Report_Date_as_YYYY-MM-DD": "2026-10-20",
+      "Open_Interest_All": "134202",
+      "Change_in_Open_Interest_All": "-18403",
+      "Asset_Mgr_Positions_Long_All": "10247",
+      "Asset_Mgr_Positions_Short_All": "479",
+      "Change_in_Asset_Mgr_Long_All": "-764",
+      "Change_in_Asset_Mgr_Short_All": "258",
+      "Lev_Money_Positions_Long_All": "8979",
+      "Lev_Money_Positions_Short_All": "95360",
+      "Change_in_Lev_Money_Long_All": "-1116",
+      "Change_in_Lev_Money_Short_All": "-17713"
+    },
+    "20974+": {
+      "CFTC_Contract_Market_Code": "20974+",
+      "Report_Date_as_YYYY-MM-DD": "2026-10-20",
+      "Open_Interest_All": "285882",
+      "Change_in_Open_Interest_All": "-8894",
+      "Asset_Mgr_Positions_Long_All": "110983",
+      "Asset_Mgr_Positions_Short_All": "32216",
+      "Change_in_Asset_Mgr_Long_All": "-2696",
+      "Change_in_Asset_Mgr_Short_All": "-5061",
+      "Lev_Money_Positions_Long_All": "48053",
+      "Lev_Money_Positions_Short_All": "55741",
+      "Change_in_Lev_Money_Long_All": "4275",
+      "Change_in_Lev_Money_Short_All": "-9928"
+    }
+  }
+}
+
