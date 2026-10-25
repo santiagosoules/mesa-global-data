@@ -1,0 +1,122 @@
+name: Update institutional data
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: Sources to collect
+        required: true
+        default: all
+        type: choice
+        options: [all, daily, h41, weekly]
+  schedule:
+    # Daily Treasury, NY Fed ON RRP and OFR FSI after the U.S. business day.
+    - cron: "20 23 * * 1-5"
+    # Federal Reserve H.4.1 is normally published Thursday afternoon.
+    - cron: "35 23 * * 4"
+    # CFTC TFF is normally published Friday for Tuesday positions.
+    - cron: "50 23 * * 5"
+
+concurrency:
+  group: mesa-global-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect-validate-export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      collection_exit_code: ${{ steps.collect.outputs.exit_code }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Select source cadence
+        id: cadence
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_PROFILE: ${{ inputs.profile }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            profile="$MANUAL_PROFILE"
+          elif [[ "$EVENT_SCHEDULE" == "50 23 * * 5" ]]; then
+            profile="weekly"
+          elif [[ "$EVENT_SCHEDULE" == "35 23 * * 4" ]]; then
+            profile="h41"
+          else
+            profile="daily"
+          fi
+          echo "profile=$profile" >> "$GITHUB_OUTPUT"
+      - name: Test normalizers, persistence and failure handling
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Restore private runtime database from public JSON history
+        run: PYTHONPATH=src python -m mesa_global_data --db data/runtime.sqlite bootstrap --bundle public/site_bundle.json
+      - name: Collect official public sources
+        id: collect
+        shell: bash
+        env:
+          PROFILE: ${{ steps.cadence.outputs.profile }}
+        run: |
+          set +e
+          PYTHONPATH=src python -m mesa_global_data --db data/runtime.sqlite collect --profile "$PROFILE"
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Validate stored observations
+        run: PYTHONPATH=src python -m mesa_global_data --db data/runtime.sqlite validate
+      - name: Build public read-only bundle
+        run: PYTHONPATH=src python -m mesa_global_data --db data/runtime.sqlite export --export-dir public
+      - name: Verify public payload
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("public/site_bundle.json").read_text())
+          assert payload["schema_version"] == "1.1.0"
+          assert len(payload["sensors"]) == 12
+          assert payload["validation"]["connected_count"] == 12
+          assert all("update_status" in item for item in payload["sensors"].values())
+          assert "diagnostics" not in payload
+          assert not any(path.suffix == ".sqlite" for path in Path("public").rglob("*"))
+          for sensor in payload["sensors"].values():
+              for point in sensor["series"]:
+                  assert "id" not in point and "revision" not in point
+          PY
+      - name: Persist public JSON history only
+        run: |
+          git config user.name "mesa-global-data-bot"
+          git config user.email "mesa-global-data-bot@users.noreply.github.com"
+          git add public/*.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update institutional data (${{ steps.cadence.outputs.profile }})"
+          git push
+      - name: Upload static endpoint
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy-endpoint:
+    needs: collect-validate-export
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy immutable JSON endpoint
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Surface degraded source run after preserving the last valid bundle
+        if: ${{ needs.collect-validate-export.outputs.collection_exit_code != '0' }}
+        run: |
+          echo "One or more sources failed. The endpoint contains the last valid values with source_error status."
+          exit 1
