@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:46:27+00:00",
+  "generated_at": "2026-10-27T02:10:11+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -50,11 +50,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_credit",
       "instrument": "OFR Financial Stress Index credit-market contribution",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-22",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "OFR FSI credit contribution",
-      "observation_count": 6785,
+      "observation_count": 6786,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -64,11 +64,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_us",
       "instrument": "OFR Financial Stress Index United States contribution",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-22",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "OFR FSI United States contribution",
-      "observation_count": 6785,
+      "observation_count": 6786,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -106,11 +106,11 @@
       "group_name": "liquidity",
       "id": "on_rrp_usage",
       "instrument": "NY Fed ON RRP accepted amount",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:45:48+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 907,
+      "observation_count": 908,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -134,11 +134,11 @@
       "group_name": "rates",
       "id": "us10y_real_yield",
       "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y real yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -148,11 +148,11 @@
       "group_name": "rates",
       "id": "us10y_yield",
       "instrument": "U.S. Treasury 10-Year Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -162,11 +162,11 @@
       "group_name": "rates",
       "id": "us2y_yield",
       "instrument": "U.S. Treasury 2-Year Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 2Y yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     }
@@ -185,19 +185,19 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:26+00:00",
+      "checked_at": "2026-10-27T02:10:10+00:00",
       "source": "Federal Reserve Bank of New York",
       "source_identifier": "nyfed",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:26+00:00",
+      "checked_at": "2026-10-27T02:10:11+00:00",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:24+00:00",
+      "checked_at": "2026-10-27T02:10:10+00:00",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury",
       "status": "ok"

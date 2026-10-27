@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-10-20",
-      "created_at": "2026-10-25T20:46:26+00:00",
+      "created_at": "2026-10-27T02:10:11+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-10-20",
       "mode": "weekly",
@@ -76,11 +76,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_credit",
       "instrument": "OFR Financial Stress Index credit-market contribution",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-22",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "OFR FSI credit contribution",
-      "observation_count": 6785,
+      "observation_count": 6786,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -90,11 +90,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_us",
       "instrument": "OFR Financial Stress Index United States contribution",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-22",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "OFR FSI United States contribution",
-      "observation_count": 6785,
+      "observation_count": 6786,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -132,11 +132,11 @@
       "group_name": "liquidity",
       "id": "on_rrp_usage",
       "instrument": "NY Fed ON RRP accepted amount",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:45:48+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 907,
+      "observation_count": 908,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -160,11 +160,11 @@
       "group_name": "rates",
       "id": "us10y_real_yield",
       "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y real yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -174,11 +174,11 @@
       "group_name": "rates",
       "id": "us10y_yield",
       "instrument": "U.S. Treasury 10-Year Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -188,11 +188,11 @@
       "group_name": "rates",
       "id": "us2y_yield",
       "instrument": "U.S. Treasury 2-Year Constant Maturity",
-      "latest_as_of": "2026-10-23",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-26",
+      "latest_retrieved_at": "2026-10-27T02:09:31+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 2Y yield",
-      "observation_count": 204,
+      "observation_count": 205,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     }
@@ -216,7 +216,7 @@
     "refresh_model": "scheduled_static_bundle",
     "update_contract": "MESA_INTEL_DATA_URL"
   },
-  "generated_at": "2026-10-25T20:46:27+00:00",
+  "generated_at": "2026-10-27T02:10:11+00:00",
   "schema_version": "1.1.0",
   "sensors": {
     "bank_reserves": {
@@ -373,7 +373,7 @@
         }
       ],
       "update_status": {
-        "age_days": 4,
+        "age_days": 6,
         "checked_at": "2026-10-25T20:46:25+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -538,7 +538,7 @@
         }
       ],
       "update_status": {
-        "age_days": 4,
+        "age_days": 6,
         "checked_at": "2026-10-25T20:46:25+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -2807,7 +2807,7 @@
         }
       ],
       "update_status": {
-        "age_days": 5,
+        "age_days": 7,
         "checked_at": "2026-10-25T20:46:26+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -5076,7 +5076,7 @@
         }
       ],
       "update_status": {
-        "age_days": 5,
+        "age_days": 7,
         "checked_at": "2026-10-25T20:46:26+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -7037,7 +7037,7 @@
         }
       ],
       "update_status": {
-        "age_days": 5,
+        "age_days": 7,
         "checked_at": "2026-10-25T20:46:26+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -7059,11 +7059,35 @@
         "primary_source": "Office of Financial Research",
         "unit": "standard_deviation_contribution"
       },
-      "delta": 0.006000000000000005,
+      "delta": 0.052000000000000046,
       "delta_period": "daily",
-      "history_end": "2026-10-21",
+      "history_end": "2026-10-22",
       "history_start": "2000-01-03",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-22",
+        "data_kind": "derived",
+        "frequency": "daily",
+        "instrument": "OFR Financial Stress Index credit-market contribution",
+        "latency": "publication",
+        "metadata": {
+          "citation": "Office of Financial Research Financial Stress Index",
+          "ofr_fsi_column": "Credit",
+          "publication_date_method": "dataset date"
+        },
+        "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
+        "publication_date": "2026-10-22",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "ofr_fsi_credit",
+        "source": "U.S. Office of Financial Research",
+        "source_identifier": "ofr_fsi:credit",
+        "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
+        "status": "ok",
+        "unit": "standard_deviation_contribution",
+        "value": -0.868
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-21",
         "data_kind": "derived",
@@ -7086,26 +7110,6 @@
         "status": "ok",
         "unit": "standard_deviation_contribution",
         "value": -0.92
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-20",
-        "data_kind": "derived",
-        "frequency": "daily",
-        "instrument": "OFR Financial Stress Index credit-market contribution",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-        "publication_date": "2026-10-20",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "ofr_fsi_credit",
-        "source": "U.S. Office of Financial Research",
-        "source_identifier": "ofr_fsi:credit",
-        "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
-        "status": "ok",
-        "unit": "standard_deviation_contribution",
-        "value": -0.926
       },
       "provenance": {
         "access": "public",
@@ -47831,15 +47835,21 @@
           "publication_date": "2026-10-21",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": -0.92
+        },
+        {
+          "as_of": "2026-10-22",
+          "publication_date": "2026-10-22",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": -0.868
         }
       ],
       "update_status": {
-        "age_days": 4,
-        "checked_at": "2026-10-25T20:46:26+00:00",
+        "age_days": 5,
+        "checked_at": "2026-10-27T02:10:11+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-21",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-22",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "ofr",
         "status": "updated"
@@ -47856,11 +47866,35 @@
         "primary_source": "Office of Financial Research",
         "unit": "standard_deviation_contribution"
       },
-      "delta": -0.026999999999999913,
+      "delta": 0.15300000000000002,
       "delta_period": "daily",
-      "history_end": "2026-10-21",
+      "history_end": "2026-10-22",
       "history_start": "2000-01-03",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-22",
+        "data_kind": "derived",
+        "frequency": "daily",
+        "instrument": "OFR Financial Stress Index United States contribution",
+        "latency": "publication",
+        "metadata": {
+          "citation": "Office of Financial Research Financial Stress Index",
+          "ofr_fsi_column": "United States",
+          "publication_date_method": "dataset date"
+        },
+        "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
+        "publication_date": "2026-10-22",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "ofr_fsi_us",
+        "source": "U.S. Office of Financial Research",
+        "source_identifier": "ofr_fsi:united_states",
+        "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
+        "status": "ok",
+        "unit": "standard_deviation_contribution",
+        "value": -0.996
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-21",
         "data_kind": "derived",
@@ -47883,26 +47917,6 @@
         "status": "ok",
         "unit": "standard_deviation_contribution",
         "value": -1.149
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-20",
-        "data_kind": "derived",
-        "frequency": "daily",
-        "instrument": "OFR Financial Stress Index United States contribution",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-        "publication_date": "2026-10-20",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "ofr_fsi_us",
-        "source": "U.S. Office of Financial Research",
-        "source_identifier": "ofr_fsi:united_states",
-        "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
-        "status": "ok",
-        "unit": "standard_deviation_contribution",
-        "value": -1.122
       },
       "provenance": {
         "access": "public",
@@ -88628,15 +88642,21 @@
           "publication_date": "2026-10-21",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": -1.149
+        },
+        {
+          "as_of": "2026-10-22",
+          "publication_date": "2026-10-22",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": -0.996
         }
       ],
       "update_status": {
-        "age_days": 4,
-        "checked_at": "2026-10-25T20:46:26+00:00",
+        "age_days": 5,
+        "checked_at": "2026-10-27T02:10:11+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-21",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-22",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "ofr",
         "status": "updated"
@@ -88653,11 +88673,36 @@
         "primary_source": "Federal Reserve Bank of New York",
         "unit": "billion_usd"
       },
-      "delta": -0.15099999999999997,
+      "delta": 0.0,
       "delta_period": "daily",
-      "history_end": "2026-10-23",
+      "history_end": "2026-10-26",
       "history_start": "2025-01-02",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-26",
+        "data_kind": "observed",
+        "frequency": "daily",
+        "instrument": "NY Fed ON RRP accepted amount",
+        "latency": "publication",
+        "metadata": {
+          "last_updated": "2026-10-26 13:15:38",
+          "operation_id": "RP 102626 26",
+          "publication_date_method": "operation_date",
+          "unit_conversion": "USD / 1,000,000,000"
+        },
+        "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
+        "publication_date": "2026-10-26",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "on_rrp_usage",
+        "source": "Federal Reserve Bank of New York",
+        "source_identifier": "nyfed_on_rrp:RP 102626 26",
+        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-27&operationTypes=Reverse+Repo&method=fixed&term=overnight",
+        "status": "ok",
+        "unit": "billion_usd",
+        "value": 0.2
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-23",
         "data_kind": "observed",
@@ -88682,31 +88727,6 @@
         "unit": "billion_usd",
         "value": 0.2
       },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-22",
-        "data_kind": "observed",
-        "frequency": "daily",
-        "instrument": "NY Fed ON RRP accepted amount",
-        "latency": "publication",
-        "metadata": {
-          "last_updated": "2026-10-22 13:15:29",
-          "operation_id": "RP 102226 26",
-          "publication_date_method": "operation_date",
-          "unit_conversion": "USD / 1,000,000,000"
-        },
-        "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
-        "publication_date": "2026-10-22",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:45:48+00:00",
-        "sensor_id": "on_rrp_usage",
-        "source": "Federal Reserve Bank of New York",
-        "source_identifier": "nyfed_on_rrp:RP 102226 26",
-        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-25&operationTypes=Reverse+Repo&method=fixed&term=overnight",
-        "status": "ok",
-        "unit": "billion_usd",
-        "value": 0.351
-      },
       "provenance": {
         "access": "public",
         "data_kind": "observed",
@@ -88716,8 +88736,8 @@
         "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
         "quality": "official_primary",
         "source": "Federal Reserve Bank of New York",
-        "source_identifier": "nyfed_on_rrp:RP 102326 26",
-        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-25&operationTypes=Reverse+Repo&method=fixed&term=overnight",
+        "source_identifier": "nyfed_on_rrp:RP 102626 26",
+        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-27&operationTypes=Reverse+Repo&method=fixed&term=overnight",
         "status": "ok",
         "unit": "billion_usd"
       },
@@ -88725,2707 +88745,2707 @@
         {
           "as_of": "2025-01-02",
           "publication_date": "2025-01-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 239.858
         },
         {
           "as_of": "2025-01-03",
           "publication_date": "2025-01-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 237.377
         },
         {
           "as_of": "2025-01-06",
           "publication_date": "2025-01-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 231.926
         },
         {
           "as_of": "2025-01-07",
           "publication_date": "2025-01-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 208.296
         },
         {
           "as_of": "2025-01-08",
           "publication_date": "2025-01-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 185.144
         },
         {
           "as_of": "2025-01-09",
           "publication_date": "2025-01-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 168.225
         },
         {
           "as_of": "2025-01-10",
           "publication_date": "2025-01-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 178.8
         },
         {
           "as_of": "2025-01-13",
           "publication_date": "2025-01-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 183.669
         },
         {
           "as_of": "2025-01-14",
           "publication_date": "2025-01-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 160.219
         },
         {
           "as_of": "2025-01-15",
           "publication_date": "2025-01-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 119.977
         },
         {
           "as_of": "2025-01-16",
           "publication_date": "2025-01-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 94.489
         },
         {
           "as_of": "2025-01-17",
           "publication_date": "2025-01-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 118.327
         },
         {
           "as_of": "2025-01-21",
           "publication_date": "2025-01-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 96.015
         },
         {
           "as_of": "2025-01-22",
           "publication_date": "2025-01-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 123.981
         },
         {
           "as_of": "2025-01-23",
           "publication_date": "2025-01-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 132.031
         },
         {
           "as_of": "2025-01-24",
           "publication_date": "2025-01-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 104.877
         },
         {
           "as_of": "2025-01-27",
           "publication_date": "2025-01-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 92.863
         },
         {
           "as_of": "2025-01-28",
           "publication_date": "2025-01-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 112.76
         },
         {
           "as_of": "2025-01-29",
           "publication_date": "2025-01-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 121.842
         },
         {
           "as_of": "2025-01-30",
           "publication_date": "2025-01-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 125.965
         },
         {
           "as_of": "2025-01-31",
           "publication_date": "2025-01-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 187.913
         },
         {
           "as_of": "2025-02-03",
           "publication_date": "2025-02-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 97.781
         },
         {
           "as_of": "2025-02-04",
           "publication_date": "2025-02-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 85.654
         },
         {
           "as_of": "2025-02-05",
           "publication_date": "2025-02-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 78.788
         },
         {
           "as_of": "2025-02-06",
           "publication_date": "2025-02-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 79.983
         },
         {
           "as_of": "2025-02-07",
           "publication_date": "2025-02-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 95.248
         },
         {
           "as_of": "2025-02-10",
           "publication_date": "2025-02-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 99.653
         },
         {
           "as_of": "2025-02-11",
           "publication_date": "2025-02-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 76.446
         },
         {
           "as_of": "2025-02-12",
           "publication_date": "2025-02-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 67.67
         },
         {
           "as_of": "2025-02-13",
           "publication_date": "2025-02-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 67.82
         },
         {
           "as_of": "2025-02-14",
           "publication_date": "2025-02-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 58.77
         },
         {
           "as_of": "2025-02-18",
           "publication_date": "2025-02-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 77.817
         },
         {
           "as_of": "2025-02-19",
           "publication_date": "2025-02-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 73.196
         },
         {
           "as_of": "2025-02-20",
           "publication_date": "2025-02-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 63.207
         },
         {
           "as_of": "2025-02-21",
           "publication_date": "2025-02-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 68.983
         },
         {
           "as_of": "2025-02-24",
           "publication_date": "2025-02-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 76.818
         },
         {
           "as_of": "2025-02-25",
           "publication_date": "2025-02-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 96.0
         },
         {
           "as_of": "2025-02-26",
           "publication_date": "2025-02-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 126.058
         },
         {
           "as_of": "2025-02-27",
           "publication_date": "2025-02-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 182.044
         },
         {
           "as_of": "2025-02-28",
           "publication_date": "2025-02-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 234.422
         },
         {
           "as_of": "2025-03-03",
           "publication_date": "2025-03-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 119.987
         },
         {
           "as_of": "2025-03-04",
           "publication_date": "2025-03-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 135.257
         },
         {
           "as_of": "2025-03-05",
           "publication_date": "2025-03-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 139.493
         },
         {
           "as_of": "2025-03-06",
           "publication_date": "2025-03-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 129.269
         },
         {
           "as_of": "2025-03-07",
           "publication_date": "2025-03-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 136.305
         },
         {
           "as_of": "2025-03-10",
           "publication_date": "2025-03-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 129.054
         },
         {
           "as_of": "2025-03-11",
           "publication_date": "2025-03-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 137.31
         },
         {
           "as_of": "2025-03-12",
           "publication_date": "2025-03-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 131.055
         },
         {
           "as_of": "2025-03-13",
           "publication_date": "2025-03-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 113.435
         },
         {
           "as_of": "2025-03-14",
           "publication_date": "2025-03-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 126.234
         },
         {
           "as_of": "2025-03-17",
           "publication_date": "2025-03-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 89.496
         },
         {
           "as_of": "2025-03-18",
           "publication_date": "2025-03-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 149.503
         },
         {
           "as_of": "2025-03-19",
           "publication_date": "2025-03-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 193.378
         },
         {
           "as_of": "2025-03-20",
           "publication_date": "2025-03-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 192.64
         },
         {
           "as_of": "2025-03-21",
           "publication_date": "2025-03-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 200.85
         },
         {
           "as_of": "2025-03-24",
           "publication_date": "2025-03-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 196.565
         },
         {
           "as_of": "2025-03-25",
           "publication_date": "2025-03-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 214.786
         },
         {
           "as_of": "2025-03-26",
           "publication_date": "2025-03-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 241.371
         },
         {
           "as_of": "2025-03-27",
           "publication_date": "2025-03-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 291.785
         },
         {
           "as_of": "2025-03-28",
           "publication_date": "2025-03-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 286.575
         },
         {
           "as_of": "2025-03-31",
           "publication_date": "2025-03-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 399.167
         },
         {
           "as_of": "2025-04-01",
           "publication_date": "2025-04-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 230.063
         },
         {
           "as_of": "2025-04-02",
           "publication_date": "2025-04-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 233.488
         },
         {
           "as_of": "2025-04-03",
           "publication_date": "2025-04-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 196.265
         },
         {
           "as_of": "2025-04-04",
           "publication_date": "2025-04-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 184.499
         },
         {
           "as_of": "2025-04-07",
           "publication_date": "2025-04-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 148.146
         },
         {
           "as_of": "2025-04-08",
           "publication_date": "2025-04-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 156.911
         },
         {
           "as_of": "2025-04-09",
           "publication_date": "2025-04-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 168.115
         },
         {
           "as_of": "2025-04-10",
           "publication_date": "2025-04-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 129.95
         },
         {
           "as_of": "2025-04-11",
           "publication_date": "2025-04-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 98.531
         },
         {
           "as_of": "2025-04-14",
           "publication_date": "2025-04-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 102.838
         },
         {
           "as_of": "2025-04-15",
           "publication_date": "2025-04-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 88.878
         },
         {
           "as_of": "2025-04-16",
           "publication_date": "2025-04-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 54.772
         },
         {
           "as_of": "2025-04-17",
           "publication_date": "2025-04-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 58.6
         },
         {
           "as_of": "2025-04-21",
           "publication_date": "2025-04-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 114.114
         },
         {
           "as_of": "2025-04-22",
           "publication_date": "2025-04-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 137.951
         },
         {
           "as_of": "2025-04-23",
           "publication_date": "2025-04-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 171.78
         },
         {
           "as_of": "2025-04-24",
           "publication_date": "2025-04-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 130.004
         },
         {
           "as_of": "2025-04-25",
           "publication_date": "2025-04-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 94.021
         },
         {
           "as_of": "2025-04-28",
           "publication_date": "2025-04-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 148.649
         },
         {
           "as_of": "2025-04-29",
           "publication_date": "2025-04-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 157.537
         },
         {
           "as_of": "2025-04-30",
           "publication_date": "2025-04-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 250.601
         },
         {
           "as_of": "2025-05-01",
           "publication_date": "2025-05-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 157.353
         },
         {
           "as_of": "2025-05-02",
           "publication_date": "2025-05-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 147.882
         },
         {
           "as_of": "2025-05-05",
           "publication_date": "2025-05-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 124.69
         },
         {
           "as_of": "2025-05-06",
           "publication_date": "2025-05-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 129.858
         },
         {
           "as_of": "2025-05-07",
           "publication_date": "2025-05-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 154.859
         },
         {
           "as_of": "2025-05-08",
           "publication_date": "2025-05-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 139.768
         },
         {
           "as_of": "2025-05-09",
           "publication_date": "2025-05-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 142.272
         },
         {
           "as_of": "2025-05-12",
           "publication_date": "2025-05-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 147.505
         },
         {
           "as_of": "2025-05-13",
           "publication_date": "2025-05-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 144.214
         },
         {
           "as_of": "2025-05-14",
           "publication_date": "2025-05-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 165.024
         },
         {
           "as_of": "2025-05-15",
           "publication_date": "2025-05-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 109.436
         },
         {
           "as_of": "2025-05-16",
           "publication_date": "2025-05-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 136.799
         },
         {
           "as_of": "2025-05-19",
           "publication_date": "2025-05-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 180.417
         },
         {
           "as_of": "2025-05-20",
           "publication_date": "2025-05-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 136.033
         },
         {
           "as_of": "2025-05-21",
           "publication_date": "2025-05-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 162.802
         },
         {
           "as_of": "2025-05-22",
           "publication_date": "2025-05-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 173.018
         },
         {
           "as_of": "2025-05-23",
           "publication_date": "2025-05-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 154.841
         },
         {
           "as_of": "2025-05-27",
           "publication_date": "2025-05-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 138.066
         },
         {
           "as_of": "2025-05-28",
           "publication_date": "2025-05-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 173.641
         },
         {
           "as_of": "2025-05-29",
           "publication_date": "2025-05-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 165.66
         },
         {
           "as_of": "2025-05-30",
           "publication_date": "2025-05-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 315.657
         },
         {
           "as_of": "2025-06-02",
           "publication_date": "2025-06-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 135.841
         },
         {
           "as_of": "2025-06-03",
           "publication_date": "2025-06-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 153.177
         },
         {
           "as_of": "2025-06-04",
           "publication_date": "2025-06-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 168.882
         },
         {
           "as_of": "2025-06-05",
           "publication_date": "2025-06-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 152.727
         },
         {
           "as_of": "2025-06-06",
           "publication_date": "2025-06-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 149.284
         },
         {
           "as_of": "2025-06-09",
           "publication_date": "2025-06-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 179.315
         },
         {
           "as_of": "2025-06-10",
           "publication_date": "2025-06-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 182.725
         },
         {
           "as_of": "2025-06-11",
           "publication_date": "2025-06-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 204.625
         },
         {
           "as_of": "2025-06-12",
           "publication_date": "2025-06-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 181.417
         },
         {
           "as_of": "2025-06-13",
           "publication_date": "2025-06-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 168.645
         },
         {
           "as_of": "2025-06-16",
           "publication_date": "2025-06-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 140.759
         },
         {
           "as_of": "2025-06-17",
           "publication_date": "2025-06-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 168.939
         },
         {
           "as_of": "2025-06-18",
           "publication_date": "2025-06-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 205.05
         },
         {
           "as_of": "2025-06-20",
           "publication_date": "2025-06-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 138.283
         },
         {
           "as_of": "2025-06-23",
           "publication_date": "2025-06-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 165.319
         },
         {
           "as_of": "2025-06-24",
           "publication_date": "2025-06-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 187.367
         },
         {
           "as_of": "2025-06-25",
           "publication_date": "2025-06-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 210.879
         },
         {
           "as_of": "2025-06-26",
           "publication_date": "2025-06-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 252.432
         },
         {
           "as_of": "2025-06-27",
           "publication_date": "2025-06-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 285.742
         },
         {
           "as_of": "2025-06-30",
           "publication_date": "2025-06-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 460.731
         },
         {
           "as_of": "2025-07-01",
           "publication_date": "2025-07-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 245.53
         },
         {
           "as_of": "2025-07-02",
           "publication_date": "2025-07-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 237.307
         },
         {
           "as_of": "2025-07-03",
           "publication_date": "2025-07-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 214.665
         },
         {
           "as_of": "2025-07-07",
           "publication_date": "2025-07-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 218.03
         },
         {
           "as_of": "2025-07-08",
           "publication_date": "2025-07-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 219.415
         },
         {
           "as_of": "2025-07-09",
           "publication_date": "2025-07-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 227.273
         },
         {
           "as_of": "2025-07-10",
           "publication_date": "2025-07-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 183.339
         },
         {
           "as_of": "2025-07-11",
           "publication_date": "2025-07-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 181.637
         },
         {
           "as_of": "2025-07-14",
           "publication_date": "2025-07-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 217.841
         },
         {
           "as_of": "2025-07-15",
           "publication_date": "2025-07-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 198.277
         },
         {
           "as_of": "2025-07-16",
           "publication_date": "2025-07-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 197.086
         },
         {
           "as_of": "2025-07-17",
           "publication_date": "2025-07-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 193.66
         },
         {
           "as_of": "2025-07-18",
           "publication_date": "2025-07-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 199.298
         },
         {
           "as_of": "2025-07-21",
           "publication_date": "2025-07-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 213.666
         },
         {
           "as_of": "2025-07-22",
           "publication_date": "2025-07-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 196.374
         },
         {
           "as_of": "2025-07-23",
           "publication_date": "2025-07-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 189.632
         },
         {
           "as_of": "2025-07-24",
           "publication_date": "2025-07-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 132.186
         },
         {
           "as_of": "2025-07-25",
           "publication_date": "2025-07-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 150.509
         },
         {
           "as_of": "2025-07-28",
           "publication_date": "2025-07-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 170.463
         },
         {
           "as_of": "2025-07-29",
           "publication_date": "2025-07-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 171.018
         },
         {
           "as_of": "2025-07-30",
           "publication_date": "2025-07-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 155.481
         },
         {
           "as_of": "2025-07-31",
           "publication_date": "2025-07-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 214.445
         },
         {
           "as_of": "2025-08-01",
           "publication_date": "2025-08-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 97.426
         },
         {
           "as_of": "2025-08-04",
           "publication_date": "2025-08-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 125.73
         },
         {
           "as_of": "2025-08-05",
           "publication_date": "2025-08-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 84.356
         },
         {
           "as_of": "2025-08-06",
           "publication_date": "2025-08-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 91.966
         },
         {
           "as_of": "2025-08-07",
           "publication_date": "2025-08-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 77.961
         },
         {
           "as_of": "2025-08-08",
           "publication_date": "2025-08-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 80.303
         },
         {
           "as_of": "2025-08-11",
           "publication_date": "2025-08-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 82.214
         },
         {
           "as_of": "2025-08-12",
           "publication_date": "2025-08-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 57.492
         },
         {
           "as_of": "2025-08-13",
           "publication_date": "2025-08-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 57.202
         },
         {
           "as_of": "2025-08-14",
           "publication_date": "2025-08-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 28.818
         },
         {
           "as_of": "2025-08-15",
           "publication_date": "2025-08-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 33.757
         },
         {
           "as_of": "2025-08-18",
           "publication_date": "2025-08-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 38.24
         },
         {
           "as_of": "2025-08-19",
           "publication_date": "2025-08-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 22.344
         },
         {
           "as_of": "2025-08-20",
           "publication_date": "2025-08-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 34.999
         },
         {
           "as_of": "2025-08-21",
           "publication_date": "2025-08-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 25.358
         },
         {
           "as_of": "2025-08-22",
           "publication_date": "2025-08-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 36.275
         },
         {
           "as_of": "2025-08-25",
           "publication_date": "2025-08-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 47.567
         },
         {
           "as_of": "2025-08-26",
           "publication_date": "2025-08-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 28.574
         },
         {
           "as_of": "2025-08-27",
           "publication_date": "2025-08-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 34.744
         },
         {
           "as_of": "2025-08-28",
           "publication_date": "2025-08-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 31.966
         },
         {
           "as_of": "2025-08-29",
           "publication_date": "2025-08-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 77.898
         },
         {
           "as_of": "2025-09-02",
           "publication_date": "2025-09-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 21.066
         },
         {
           "as_of": "2025-09-03",
           "publication_date": "2025-09-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 17.923
         },
         {
           "as_of": "2025-09-04",
           "publication_date": "2025-09-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 20.128
         },
         {
           "as_of": "2025-09-05",
           "publication_date": "2025-09-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 20.997
         },
         {
           "as_of": "2025-09-08",
           "publication_date": "2025-09-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 19.416
         },
         {
           "as_of": "2025-09-09",
           "publication_date": "2025-09-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 22.915
         },
         {
           "as_of": "2025-09-10",
           "publication_date": "2025-09-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 29.4
         },
         {
           "as_of": "2025-09-11",
           "publication_date": "2025-09-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 26.897
         },
         {
           "as_of": "2025-09-12",
           "publication_date": "2025-09-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 17.331
         },
         {
           "as_of": "2025-09-15",
           "publication_date": "2025-09-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 16.954
         },
         {
           "as_of": "2025-09-16",
           "publication_date": "2025-09-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 18.817
         },
         {
           "as_of": "2025-09-17",
           "publication_date": "2025-09-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 13.963
         },
         {
           "as_of": "2025-09-18",
           "publication_date": "2025-09-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 13.707
         },
         {
           "as_of": "2025-09-19",
           "publication_date": "2025-09-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 11.363
         },
         {
           "as_of": "2025-09-22",
           "publication_date": "2025-09-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 14.173
         },
         {
           "as_of": "2025-09-23",
           "publication_date": "2025-09-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 14.402
         },
         {
           "as_of": "2025-09-24",
           "publication_date": "2025-09-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 29.172
         },
         {
           "as_of": "2025-09-25",
           "publication_date": "2025-09-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 25.369
         },
         {
           "as_of": "2025-09-26",
           "publication_date": "2025-09-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 48.073
         },
         {
           "as_of": "2025-09-29",
           "publication_date": "2025-09-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 56.22
         },
         {
           "as_of": "2025-09-30",
           "publication_date": "2025-09-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 49.071
         },
         {
           "as_of": "2025-10-01",
           "publication_date": "2025-10-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.179
         },
         {
           "as_of": "2025-10-02",
           "publication_date": "2025-10-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 8.436
         },
         {
           "as_of": "2025-10-03",
           "publication_date": "2025-10-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 25.392
         },
         {
           "as_of": "2025-10-06",
           "publication_date": "2025-10-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 21.776
         },
         {
           "as_of": "2025-10-07",
           "publication_date": "2025-10-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.622
         },
         {
           "as_of": "2025-10-08",
           "publication_date": "2025-10-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.231
         },
         {
           "as_of": "2025-10-09",
           "publication_date": "2025-10-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.496
         },
         {
           "as_of": "2025-10-10",
           "publication_date": "2025-10-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.124
         },
         {
           "as_of": "2025-10-14",
           "publication_date": "2025-10-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.516
         },
         {
           "as_of": "2025-10-15",
           "publication_date": "2025-10-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.484
         },
         {
           "as_of": "2025-10-16",
           "publication_date": "2025-10-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.96
         },
         {
           "as_of": "2025-10-17",
           "publication_date": "2025-10-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.102
         },
         {
           "as_of": "2025-10-20",
           "publication_date": "2025-10-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.931
         },
         {
           "as_of": "2025-10-21",
           "publication_date": "2025-10-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.699
         },
         {
           "as_of": "2025-10-22",
           "publication_date": "2025-10-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.005
         },
         {
           "as_of": "2025-10-23",
           "publication_date": "2025-10-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.941
         },
         {
           "as_of": "2025-10-24",
           "publication_date": "2025-10-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.435
         },
         {
           "as_of": "2025-10-27",
           "publication_date": "2025-10-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.642
         },
         {
           "as_of": "2025-10-28",
           "publication_date": "2025-10-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 14.096
         },
         {
           "as_of": "2025-10-29",
           "publication_date": "2025-10-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 19.504
         },
         {
           "as_of": "2025-10-30",
           "publication_date": "2025-10-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 19.166
         },
         {
           "as_of": "2025-10-31",
           "publication_date": "2025-10-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 51.802
         },
         {
           "as_of": "2025-11-03",
           "publication_date": "2025-11-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 23.792
         },
         {
           "as_of": "2025-11-04",
           "publication_date": "2025-11-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 16.983
         },
         {
           "as_of": "2025-11-05",
           "publication_date": "2025-11-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 12.7
         },
         {
           "as_of": "2025-11-06",
           "publication_date": "2025-11-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.754
         },
         {
           "as_of": "2025-11-07",
           "publication_date": "2025-11-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.903
         },
         {
           "as_of": "2025-11-10",
           "publication_date": "2025-11-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 7.152
         },
         {
           "as_of": "2025-11-12",
           "publication_date": "2025-11-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.886
         },
         {
           "as_of": "2025-11-13",
           "publication_date": "2025-11-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.761
         },
         {
           "as_of": "2025-11-14",
           "publication_date": "2025-11-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.559
         },
         {
           "as_of": "2025-11-17",
           "publication_date": "2025-11-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.172
         },
         {
           "as_of": "2025-11-18",
           "publication_date": "2025-11-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.905
         },
         {
           "as_of": "2025-11-19",
           "publication_date": "2025-11-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.129
         },
         {
           "as_of": "2025-11-20",
           "publication_date": "2025-11-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.52
         },
         {
           "as_of": "2025-11-21",
           "publication_date": "2025-11-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.503
         },
         {
           "as_of": "2025-11-24",
           "publication_date": "2025-11-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.077
         },
         {
           "as_of": "2025-11-25",
           "publication_date": "2025-11-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.314
         },
         {
           "as_of": "2025-11-26",
           "publication_date": "2025-11-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.217
         },
         {
           "as_of": "2025-11-28",
           "publication_date": "2025-11-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 7.561
         },
         {
           "as_of": "2025-12-01",
           "publication_date": "2025-12-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.24
         },
         {
           "as_of": "2025-12-02",
           "publication_date": "2025-12-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.62
         },
         {
           "as_of": "2025-12-03",
           "publication_date": "2025-12-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.514
         },
         {
           "as_of": "2025-12-04",
           "publication_date": "2025-12-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.233
         },
         {
           "as_of": "2025-12-05",
           "publication_date": "2025-12-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.485
         },
         {
           "as_of": "2025-12-08",
           "publication_date": "2025-12-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.703
         },
         {
           "as_of": "2025-12-09",
           "publication_date": "2025-12-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.211
         },
         {
           "as_of": "2025-12-10",
           "publication_date": "2025-12-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.045
         },
         {
           "as_of": "2025-12-11",
           "publication_date": "2025-12-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.874
         },
         {
           "as_of": "2025-12-12",
           "publication_date": "2025-12-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.838
         },
         {
           "as_of": "2025-12-15",
           "publication_date": "2025-12-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.601
         },
         {
           "as_of": "2025-12-16",
           "publication_date": "2025-12-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.554
         },
         {
           "as_of": "2025-12-17",
           "publication_date": "2025-12-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.361
         },
         {
           "as_of": "2025-12-18",
           "publication_date": "2025-12-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 11.708
         },
         {
           "as_of": "2025-12-19",
           "publication_date": "2025-12-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.047
         },
         {
           "as_of": "2025-12-22",
           "publication_date": "2025-12-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.523
         },
         {
           "as_of": "2025-12-23",
           "publication_date": "2025-12-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.893
         },
         {
           "as_of": "2025-12-24",
           "publication_date": "2025-12-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.803
         },
         {
           "as_of": "2025-12-26",
           "publication_date": "2025-12-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 20.339
         },
         {
           "as_of": "2025-12-29",
           "publication_date": "2025-12-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.551
         },
         {
           "as_of": "2025-12-30",
           "publication_date": "2025-12-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 12.605
         },
         {
           "as_of": "2025-12-31",
           "publication_date": "2025-12-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 105.993
         },
         {
           "as_of": "2026-01-02",
           "publication_date": "2026-01-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.667
         },
         {
           "as_of": "2026-01-05",
           "publication_date": "2026-01-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.485
         },
         {
           "as_of": "2026-01-06",
           "publication_date": "2026-01-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.582
         },
         {
           "as_of": "2026-01-07",
           "publication_date": "2026-01-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.582
         },
         {
           "as_of": "2026-01-08",
           "publication_date": "2026-01-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.083
         },
         {
           "as_of": "2026-01-09",
           "publication_date": "2026-01-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.28
         },
         {
           "as_of": "2026-01-12",
           "publication_date": "2026-01-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.402
         },
         {
           "as_of": "2026-01-13",
           "publication_date": "2026-01-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.277
         },
         {
           "as_of": "2026-01-14",
           "publication_date": "2026-01-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.223
         },
         {
           "as_of": "2026-01-15",
           "publication_date": "2026-01-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.003
         },
         {
           "as_of": "2026-01-16",
           "publication_date": "2026-01-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.222
         },
         {
           "as_of": "2026-01-20",
           "publication_date": "2026-01-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.506
         },
         {
           "as_of": "2026-01-21",
           "publication_date": "2026-01-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.344
         },
         {
           "as_of": "2026-01-22",
           "publication_date": "2026-01-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.058
         },
         {
           "as_of": "2026-01-23",
           "publication_date": "2026-01-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.927
         },
         {
           "as_of": "2026-01-26",
           "publication_date": "2026-01-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.489
         },
         {
           "as_of": "2026-01-27",
           "publication_date": "2026-01-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.253
         },
         {
           "as_of": "2026-01-28",
           "publication_date": "2026-01-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.103
         },
         {
           "as_of": "2026-01-29",
           "publication_date": "2026-01-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.852
         },
         {
           "as_of": "2026-01-30",
           "publication_date": "2026-01-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 9.629
         },
         {
           "as_of": "2026-02-02",
           "publication_date": "2026-02-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.415
         },
         {
           "as_of": "2026-02-03",
           "publication_date": "2026-02-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.785
         },
         {
           "as_of": "2026-02-04",
           "publication_date": "2026-02-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.414
         },
         {
           "as_of": "2026-02-05",
           "publication_date": "2026-02-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.748
         },
         {
           "as_of": "2026-02-06",
           "publication_date": "2026-02-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.111
         },
         {
           "as_of": "2026-02-09",
           "publication_date": "2026-02-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.306
         },
         {
           "as_of": "2026-02-10",
           "publication_date": "2026-02-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.447
         },
         {
           "as_of": "2026-02-11",
           "publication_date": "2026-02-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.048
         },
         {
           "as_of": "2026-02-12",
           "publication_date": "2026-02-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.844
         },
         {
           "as_of": "2026-02-13",
           "publication_date": "2026-02-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.377
         },
         {
           "as_of": "2026-02-17",
           "publication_date": "2026-02-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.441
         },
         {
           "as_of": "2026-02-18",
           "publication_date": "2026-02-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.856
         },
         {
           "as_of": "2026-02-19",
           "publication_date": "2026-02-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.632
         },
         {
           "as_of": "2026-02-20",
           "publication_date": "2026-02-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.496
         },
         {
           "as_of": "2026-02-23",
           "publication_date": "2026-02-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.877
         },
         {
           "as_of": "2026-02-24",
           "publication_date": "2026-02-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.917
         },
         {
           "as_of": "2026-02-25",
           "publication_date": "2026-02-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.159
         },
         {
           "as_of": "2026-02-26",
           "publication_date": "2026-02-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.796
         },
         {
           "as_of": "2026-02-27",
           "publication_date": "2026-02-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 16.318
         },
         {
           "as_of": "2026-03-02",
           "publication_date": "2026-03-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.627
         },
         {
           "as_of": "2026-03-03",
           "publication_date": "2026-03-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.203
         },
         {
           "as_of": "2026-03-04",
           "publication_date": "2026-03-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.877
         },
         {
           "as_of": "2026-03-05",
           "publication_date": "2026-03-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.793
         },
         {
           "as_of": "2026-03-06",
           "publication_date": "2026-03-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.512
         },
         {
           "as_of": "2026-03-09",
           "publication_date": "2026-03-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.332
         },
         {
           "as_of": "2026-03-10",
           "publication_date": "2026-03-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.278
         },
         {
           "as_of": "2026-03-11",
           "publication_date": "2026-03-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.552
         },
         {
           "as_of": "2026-03-12",
           "publication_date": "2026-03-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.137
         },
         {
           "as_of": "2026-03-13",
           "publication_date": "2026-03-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.427
         },
         {
           "as_of": "2026-03-16",
           "publication_date": "2026-03-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.582
         },
         {
           "as_of": "2026-03-17",
           "publication_date": "2026-03-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.797
         },
         {
           "as_of": "2026-03-18",
           "publication_date": "2026-03-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.698
         },
         {
           "as_of": "2026-03-19",
           "publication_date": "2026-03-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.637
         },
         {
           "as_of": "2026-03-20",
           "publication_date": "2026-03-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.822
         },
         {
           "as_of": "2026-03-23",
           "publication_date": "2026-03-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.857
         },
         {
           "as_of": "2026-03-24",
           "publication_date": "2026-03-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.123
         },
         {
           "as_of": "2026-03-25",
           "publication_date": "2026-03-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.777
         },
         {
           "as_of": "2026-03-26",
           "publication_date": "2026-03-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.885
         },
         {
           "as_of": "2026-03-27",
           "publication_date": "2026-03-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.992
         },
         {
           "as_of": "2026-03-30",
           "publication_date": "2026-03-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.752
         },
         {
           "as_of": "2026-03-31",
           "publication_date": "2026-03-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 15.782
         },
         {
           "as_of": "2026-04-01",
           "publication_date": "2026-04-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.107
         },
         {
           "as_of": "2026-04-02",
           "publication_date": "2026-04-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.327
         },
         {
           "as_of": "2026-04-06",
           "publication_date": "2026-04-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.227
         },
         {
           "as_of": "2026-04-07",
           "publication_date": "2026-04-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 15.345
         },
         {
           "as_of": "2026-04-08",
           "publication_date": "2026-04-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.177
         },
         {
           "as_of": "2026-04-09",
           "publication_date": "2026-04-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.402
         },
         {
           "as_of": "2026-04-10",
           "publication_date": "2026-04-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.507
         },
         {
           "as_of": "2026-04-13",
           "publication_date": "2026-04-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.227
         },
         {
           "as_of": "2026-04-14",
           "publication_date": "2026-04-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.306
         },
         {
           "as_of": "2026-04-15",
           "publication_date": "2026-04-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.223
         },
         {
           "as_of": "2026-04-16",
           "publication_date": "2026-04-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.158
         },
         {
           "as_of": "2026-04-17",
           "publication_date": "2026-04-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.137
         },
         {
           "as_of": "2026-04-20",
           "publication_date": "2026-04-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.503
         },
         {
           "as_of": "2026-04-21",
           "publication_date": "2026-04-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.807
         },
         {
           "as_of": "2026-04-22",
           "publication_date": "2026-04-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.538
         },
         {
           "as_of": "2026-04-23",
           "publication_date": "2026-04-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.114
         },
         {
           "as_of": "2026-04-24",
           "publication_date": "2026-04-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.082
         },
         {
           "as_of": "2026-04-27",
           "publication_date": "2026-04-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.363
         },
         {
           "as_of": "2026-04-28",
           "publication_date": "2026-04-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.643
         },
         {
           "as_of": "2026-04-29",
           "publication_date": "2026-04-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.747
         },
         {
           "as_of": "2026-04-30",
           "publication_date": "2026-04-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 8.261
         },
         {
           "as_of": "2026-05-01",
           "publication_date": "2026-05-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.607
         },
         {
           "as_of": "2026-05-04",
           "publication_date": "2026-05-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.618
         },
         {
           "as_of": "2026-05-05",
           "publication_date": "2026-05-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.122
         },
         {
           "as_of": "2026-05-06",
           "publication_date": "2026-05-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.633
         },
         {
           "as_of": "2026-05-07",
           "publication_date": "2026-05-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.773
         },
         {
           "as_of": "2026-05-08",
           "publication_date": "2026-05-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.787
         },
         {
           "as_of": "2026-05-11",
           "publication_date": "2026-05-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.133
         },
         {
           "as_of": "2026-05-12",
           "publication_date": "2026-05-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.199
         },
         {
           "as_of": "2026-05-13",
           "publication_date": "2026-05-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.609
         },
         {
           "as_of": "2026-05-14",
           "publication_date": "2026-05-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.034
         },
         {
           "as_of": "2026-05-15",
           "publication_date": "2026-05-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.647
         },
         {
           "as_of": "2026-05-18",
           "publication_date": "2026-05-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 7.193
         },
         {
           "as_of": "2026-05-19",
           "publication_date": "2026-05-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 12.911
         },
         {
           "as_of": "2026-05-20",
           "publication_date": "2026-05-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 24.867
         },
         {
           "as_of": "2026-05-21",
           "publication_date": "2026-05-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.281
         },
         {
           "as_of": "2026-05-22",
           "publication_date": "2026-05-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.965
         },
         {
           "as_of": "2026-05-26",
           "publication_date": "2026-05-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.787
         },
         {
           "as_of": "2026-05-27",
           "publication_date": "2026-05-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.853
         },
         {
           "as_of": "2026-05-28",
           "publication_date": "2026-05-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.163
         },
         {
           "as_of": "2026-05-29",
           "publication_date": "2026-05-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 11.677
         },
         {
           "as_of": "2026-06-01",
           "publication_date": "2026-06-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.302
         },
         {
           "as_of": "2026-06-02",
           "publication_date": "2026-06-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.502
         },
         {
           "as_of": "2026-06-03",
           "publication_date": "2026-06-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.062
         },
         {
           "as_of": "2026-06-04",
           "publication_date": "2026-06-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.122
         },
         {
           "as_of": "2026-06-05",
           "publication_date": "2026-06-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.761
         },
         {
           "as_of": "2026-06-08",
           "publication_date": "2026-06-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.832
         },
         {
           "as_of": "2026-06-09",
           "publication_date": "2026-06-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.577
         },
         {
           "as_of": "2026-06-10",
           "publication_date": "2026-06-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.387
         },
         {
           "as_of": "2026-06-11",
           "publication_date": "2026-06-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.46
         },
         {
           "as_of": "2026-06-12",
           "publication_date": "2026-06-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.454
         },
         {
           "as_of": "2026-06-15",
           "publication_date": "2026-06-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.581
         },
         {
           "as_of": "2026-06-16",
           "publication_date": "2026-06-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 10.721
         },
         {
           "as_of": "2026-06-17",
           "publication_date": "2026-06-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.828
         },
         {
           "as_of": "2026-06-18",
           "publication_date": "2026-06-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.251
         },
         {
           "as_of": "2026-06-22",
           "publication_date": "2026-06-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.925
         },
         {
           "as_of": "2026-06-23",
           "publication_date": "2026-06-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.484
         },
         {
           "as_of": "2026-06-24",
           "publication_date": "2026-06-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.534
         },
         {
           "as_of": "2026-06-25",
           "publication_date": "2026-06-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.718
         },
         {
           "as_of": "2026-06-26",
           "publication_date": "2026-06-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.426
         },
         {
           "as_of": "2026-06-29",
           "publication_date": "2026-06-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.546
         },
         {
           "as_of": "2026-06-30",
           "publication_date": "2026-06-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 26.9
         },
         {
           "as_of": "2026-07-01",
           "publication_date": "2026-07-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.001
         },
         {
           "as_of": "2026-07-02",
           "publication_date": "2026-07-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.175
         },
         {
           "as_of": "2026-07-06",
           "publication_date": "2026-07-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.719
         },
         {
           "as_of": "2026-07-07",
           "publication_date": "2026-07-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.484
         },
         {
           "as_of": "2026-07-08",
           "publication_date": "2026-07-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 3.347
         },
         {
           "as_of": "2026-07-09",
           "publication_date": "2026-07-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.772
         },
         {
           "as_of": "2026-07-10",
           "publication_date": "2026-07-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.545
         },
         {
           "as_of": "2026-07-13",
           "publication_date": "2026-07-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.795
         },
         {
           "as_of": "2026-07-14",
           "publication_date": "2026-07-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.278
         },
         {
           "as_of": "2026-07-15",
           "publication_date": "2026-07-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.151
         },
         {
           "as_of": "2026-07-16",
           "publication_date": "2026-07-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.125
         },
         {
           "as_of": "2026-07-17",
           "publication_date": "2026-07-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.1
         },
         {
           "as_of": "2026-07-20",
           "publication_date": "2026-07-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.03
         },
         {
           "as_of": "2026-07-21",
           "publication_date": "2026-07-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.275
         },
         {
           "as_of": "2026-07-22",
           "publication_date": "2026-07-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.376
         },
         {
           "as_of": "2026-07-23",
           "publication_date": "2026-07-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.904
         },
         {
           "as_of": "2026-07-24",
           "publication_date": "2026-07-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.675
         },
         {
           "as_of": "2026-07-27",
           "publication_date": "2026-07-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.38
         },
         {
           "as_of": "2026-07-28",
           "publication_date": "2026-07-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.126
         },
         {
           "as_of": "2026-07-29",
           "publication_date": "2026-07-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.576
         },
         {
           "as_of": "2026-07-30",
           "publication_date": "2026-07-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.076
         },
         {
           "as_of": "2026-07-31",
           "publication_date": "2026-07-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.151
         },
         {
           "as_of": "2026-08-03",
           "publication_date": "2026-08-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.127
         },
         {
           "as_of": "2026-08-04",
           "publication_date": "2026-08-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.251
         },
         {
           "as_of": "2026-08-05",
           "publication_date": "2026-08-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.65
         },
         {
           "as_of": "2026-08-06",
           "publication_date": "2026-08-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.429
         },
         {
           "as_of": "2026-08-07",
           "publication_date": "2026-08-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.45
         },
         {
           "as_of": "2026-08-10",
           "publication_date": "2026-08-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.975
         },
         {
           "as_of": "2026-08-11",
           "publication_date": "2026-08-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.25
         },
         {
           "as_of": "2026-08-12",
           "publication_date": "2026-08-12",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.725
         },
         {
           "as_of": "2026-08-13",
           "publication_date": "2026-08-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.45
         },
         {
           "as_of": "2026-08-14",
           "publication_date": "2026-08-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.25
         },
         {
           "as_of": "2026-08-17",
           "publication_date": "2026-08-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.255
         },
         {
           "as_of": "2026-08-18",
           "publication_date": "2026-08-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.155
         },
         {
           "as_of": "2026-08-19",
           "publication_date": "2026-08-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.317
         },
         {
           "as_of": "2026-08-20",
           "publication_date": "2026-08-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.225
         },
         {
           "as_of": "2026-08-21",
           "publication_date": "2026-08-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.2
         },
         {
           "as_of": "2026-08-24",
           "publication_date": "2026-08-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.38
         },
         {
           "as_of": "2026-08-25",
           "publication_date": "2026-08-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.405
         },
         {
           "as_of": "2026-08-26",
           "publication_date": "2026-08-26",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.702
         },
         {
           "as_of": "2026-08-27",
           "publication_date": "2026-08-27",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.456
         },
         {
           "as_of": "2026-08-28",
           "publication_date": "2026-08-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.175
         },
         {
           "as_of": "2026-08-31",
           "publication_date": "2026-08-31",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 6.726
         },
         {
           "as_of": "2026-09-01",
           "publication_date": "2026-09-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.725
         },
         {
           "as_of": "2026-09-02",
           "publication_date": "2026-09-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.525
         },
         {
           "as_of": "2026-09-03",
           "publication_date": "2026-09-03",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.702
         },
         {
           "as_of": "2026-09-04",
           "publication_date": "2026-09-04",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.675
         },
         {
           "as_of": "2026-09-08",
           "publication_date": "2026-09-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.626
         },
         {
           "as_of": "2026-09-09",
           "publication_date": "2026-09-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.432
         },
         {
           "as_of": "2026-09-10",
           "publication_date": "2026-09-10",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 4.736
         },
         {
           "as_of": "2026-09-11",
           "publication_date": "2026-09-11",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.255
         },
         {
           "as_of": "2026-09-14",
           "publication_date": "2026-09-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.42
         },
         {
           "as_of": "2026-09-15",
           "publication_date": "2026-09-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.7
         },
         {
           "as_of": "2026-09-16",
           "publication_date": "2026-09-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 5.375
         },
         {
           "as_of": "2026-09-17",
           "publication_date": "2026-09-17",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.276
         },
         {
           "as_of": "2026-09-18",
           "publication_date": "2026-09-18",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.576
         },
         {
           "as_of": "2026-09-21",
           "publication_date": "2026-09-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.582
         },
         {
           "as_of": "2026-09-22",
           "publication_date": "2026-09-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.453
         },
         {
           "as_of": "2026-09-23",
           "publication_date": "2026-09-23",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.461
         },
         {
           "as_of": "2026-09-24",
           "publication_date": "2026-09-24",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.63
         },
         {
           "as_of": "2026-09-25",
           "publication_date": "2026-09-25",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.576
         },
         {
           "as_of": "2026-09-28",
           "publication_date": "2026-09-28",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.851
         },
         {
           "as_of": "2026-09-29",
           "publication_date": "2026-09-29",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 11.446
         },
         {
           "as_of": "2026-09-30",
           "publication_date": "2026-09-30",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 11.539
         },
         {
           "as_of": "2026-10-01",
           "publication_date": "2026-10-01",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.35
         },
         {
           "as_of": "2026-10-02",
           "publication_date": "2026-10-02",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.501
         },
         {
           "as_of": "2026-10-05",
           "publication_date": "2026-10-05",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.004
         },
         {
           "as_of": "2026-10-06",
           "publication_date": "2026-10-06",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.414
         },
         {
           "as_of": "2026-10-07",
           "publication_date": "2026-10-07",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 2.338
         },
         {
           "as_of": "2026-10-08",
           "publication_date": "2026-10-08",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.335
         },
         {
           "as_of": "2026-10-09",
           "publication_date": "2026-10-09",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.3
         },
         {
           "as_of": "2026-10-13",
           "publication_date": "2026-10-13",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.275
         },
         {
           "as_of": "2026-10-14",
           "publication_date": "2026-10-14",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.201
         },
         {
           "as_of": "2026-10-15",
           "publication_date": "2026-10-15",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 1.201
         },
         {
           "as_of": "2026-10-16",
           "publication_date": "2026-10-16",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.1
         },
         {
           "as_of": "2026-10-19",
           "publication_date": "2026-10-19",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.33
         },
         {
           "as_of": "2026-10-20",
           "publication_date": "2026-10-20",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.227
         },
         {
           "as_of": "2026-10-21",
           "publication_date": "2026-10-21",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.237
         },
         {
           "as_of": "2026-10-22",
           "publication_date": "2026-10-22",
-          "retrieved_at": "2026-10-25T20:45:48+00:00",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
           "value": 0.351
         },
         {
@@ -91433,15 +91453,21 @@
           "publication_date": "2026-10-23",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 0.2
+        },
+        {
+          "as_of": "2026-10-26",
+          "publication_date": "2026-10-26",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": 0.2
         }
       ],
       "update_status": {
-        "age_days": 2,
-        "checked_at": "2026-10-25T20:46:26+00:00",
+        "age_days": 1,
+        "checked_at": "2026-10-27T02:10:10+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-23",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-26",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "nyfed",
         "status": "updated"
@@ -91601,7 +91627,7 @@
         }
       ],
       "update_status": {
-        "age_days": 4,
+        "age_days": 6,
         "checked_at": "2026-10-25T20:46:25+00:00",
         "detail": "source check passed",
         "label": "actualizado",
@@ -91623,11 +91649,34 @@
         "primary_source": "U.S. Treasury",
         "unit": "percent"
       },
-      "delta": 0.020000000000000018,
+      "delta": 0.0,
       "delta_period": "daily",
-      "history_end": "2026-10-23",
+      "history_end": "2026-10-26",
       "history_start": "2026-01-02",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-26",
+        "data_kind": "observed",
+        "frequency": "daily",
+        "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
+        "latency": "publication",
+        "metadata": {
+          "publication_date_method": "effective_date",
+          "treasury_field": "TC_10YEAR"
+        },
+        "methodology": "Official Treasury daily par yield curve field TC_10YEAR.",
+        "publication_date": "2026-10-26",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "us10y_real_yield",
+        "source": "U.S. Department of the Treasury",
+        "source_identifier": "treasury:TC_10YEAR",
+        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+        "status": "ok",
+        "unit": "percent",
+        "value": 2.66
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-23",
         "data_kind": "observed",
@@ -91649,26 +91698,6 @@
         "status": "ok",
         "unit": "percent",
         "value": 2.66
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-22",
-        "data_kind": "observed",
-        "frequency": "daily",
-        "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official Treasury daily par yield curve field TC_10YEAR.",
-        "publication_date": "2026-10-22",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "us10y_real_yield",
-        "source": "U.S. Department of the Treasury",
-        "source_identifier": "treasury:TC_10YEAR",
-        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
-        "status": "ok",
-        "unit": "percent",
-        "value": 2.64
       },
       "provenance": {
         "access": "public",
@@ -92908,15 +92937,21 @@
           "publication_date": "2026-10-23",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 2.66
+        },
+        {
+          "as_of": "2026-10-26",
+          "publication_date": "2026-10-26",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": 2.66
         }
       ],
       "update_status": {
-        "age_days": 2,
-        "checked_at": "2026-10-25T20:46:24+00:00",
+        "age_days": 1,
+        "checked_at": "2026-10-27T02:10:10+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-23",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-26",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "treasury",
         "status": "updated"
@@ -92933,11 +92968,34 @@
         "primary_source": "U.S. Treasury",
         "unit": "percent"
       },
-      "delta": 0.040000000000000036,
+      "delta": 0.0,
       "delta_period": "daily",
-      "history_end": "2026-10-23",
+      "history_end": "2026-10-26",
       "history_start": "2026-01-02",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-26",
+        "data_kind": "observed",
+        "frequency": "daily",
+        "instrument": "U.S. Treasury 10-Year Constant Maturity",
+        "latency": "publication",
+        "metadata": {
+          "publication_date_method": "effective_date",
+          "treasury_field": "BC_10YEAR"
+        },
+        "methodology": "Official Treasury daily par yield curve field BC_10YEAR.",
+        "publication_date": "2026-10-26",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "us10y_yield",
+        "source": "U.S. Department of the Treasury",
+        "source_identifier": "treasury:BC_10YEAR",
+        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "status": "ok",
+        "unit": "percent",
+        "value": 5.0
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-23",
         "data_kind": "observed",
@@ -92959,26 +93017,6 @@
         "status": "ok",
         "unit": "percent",
         "value": 5.0
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-22",
-        "data_kind": "observed",
-        "frequency": "daily",
-        "instrument": "U.S. Treasury 10-Year Constant Maturity",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official Treasury daily par yield curve field BC_10YEAR.",
-        "publication_date": "2026-10-22",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "us10y_yield",
-        "source": "U.S. Department of the Treasury",
-        "source_identifier": "treasury:BC_10YEAR",
-        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
-        "status": "ok",
-        "unit": "percent",
-        "value": 4.96
       },
       "provenance": {
         "access": "public",
@@ -94218,15 +94256,21 @@
           "publication_date": "2026-10-23",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 5.0
+        },
+        {
+          "as_of": "2026-10-26",
+          "publication_date": "2026-10-26",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": 5.0
         }
       ],
       "update_status": {
-        "age_days": 2,
-        "checked_at": "2026-10-25T20:46:24+00:00",
+        "age_days": 1,
+        "checked_at": "2026-10-27T02:10:10+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-23",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-26",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "treasury",
         "status": "updated"
@@ -94243,11 +94287,34 @@
         "primary_source": "U.S. Treasury",
         "unit": "percent"
       },
-      "delta": 0.040000000000000036,
+      "delta": -0.010000000000000675,
       "delta_period": "daily",
-      "history_end": "2026-10-23",
+      "history_end": "2026-10-26",
       "history_start": "2026-01-02",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-26",
+        "data_kind": "observed",
+        "frequency": "daily",
+        "instrument": "U.S. Treasury 2-Year Constant Maturity",
+        "latency": "publication",
+        "metadata": {
+          "publication_date_method": "effective_date",
+          "treasury_field": "BC_2YEAR"
+        },
+        "methodology": "Official Treasury daily par yield curve field BC_2YEAR.",
+        "publication_date": "2026-10-26",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-27T02:09:31+00:00",
+        "sensor_id": "us2y_yield",
+        "source": "U.S. Department of the Treasury",
+        "source_identifier": "treasury:BC_2YEAR",
+        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "status": "ok",
+        "unit": "percent",
+        "value": 4.68
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-23",
         "data_kind": "observed",
@@ -94269,26 +94336,6 @@
         "status": "ok",
         "unit": "percent",
         "value": 4.69
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-22",
-        "data_kind": "observed",
-        "frequency": "daily",
-        "instrument": "U.S. Treasury 2-Year Constant Maturity",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official Treasury daily par yield curve field BC_2YEAR.",
-        "publication_date": "2026-10-22",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "us2y_yield",
-        "source": "U.S. Department of the Treasury",
-        "source_identifier": "treasury:BC_2YEAR",
-        "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
-        "status": "ok",
-        "unit": "percent",
-        "value": 4.65
       },
       "provenance": {
         "access": "public",
@@ -95528,15 +95575,21 @@
           "publication_date": "2026-10-23",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 4.69
+        },
+        {
+          "as_of": "2026-10-26",
+          "publication_date": "2026-10-26",
+          "retrieved_at": "2026-10-27T02:09:31+00:00",
+          "value": 4.68
         }
       ],
       "update_status": {
-        "age_days": 2,
-        "checked_at": "2026-10-25T20:46:24+00:00",
+        "age_days": 1,
+        "checked_at": "2026-10-27T02:10:10+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-23",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-26",
+        "last_valid_retrieved_at": "2026-10-27T02:09:31+00:00",
         "max_age_days": 5,
         "source_identifier": "treasury",
         "status": "updated"
@@ -95557,19 +95610,19 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:26+00:00",
+      "checked_at": "2026-10-27T02:10:10+00:00",
       "source": "Federal Reserve Bank of New York",
       "source_identifier": "nyfed",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:26+00:00",
+      "checked_at": "2026-10-27T02:10:11+00:00",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr",
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:24+00:00",
+      "checked_at": "2026-10-27T02:10:10+00:00",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury",
       "status": "ok"
