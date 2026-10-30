@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:41:53+00:00",
+  "generated_at": "2026-10-30T02:54:08+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -78,11 +78,11 @@
       "group_name": "fed",
       "id": "fed_balance_assets",
       "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Federal Reserve total assets",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -92,11 +92,11 @@
       "group_name": "liquidity",
       "id": "bank_reserves",
       "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Reserve balances",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -110,7 +110,7 @@
       "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 914,
+      "observation_count": 456,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -120,11 +120,11 @@
       "group_name": "liquidity",
       "id": "tga_balance",
       "instrument": "U.S. Treasury General Account, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Treasury General Account",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -179,7 +179,7 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:25+00:00",
+      "checked_at": "2026-10-30T02:54:07+00:00",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "h41",
       "status": "ok"

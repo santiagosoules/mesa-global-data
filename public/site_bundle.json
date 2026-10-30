@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-10-20",
-      "created_at": "2026-10-30T02:41:53+00:00",
+      "created_at": "2026-10-30T02:54:07+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-10-20",
       "mode": "weekly",
@@ -104,11 +104,11 @@
       "group_name": "fed",
       "id": "fed_balance_assets",
       "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Federal Reserve total assets",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -118,11 +118,11 @@
       "group_name": "liquidity",
       "id": "bank_reserves",
       "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Reserve balances",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -136,7 +136,7 @@
       "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 914,
+      "observation_count": 456,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -146,11 +146,11 @@
       "group_name": "liquidity",
       "id": "tga_balance",
       "instrument": "U.S. Treasury General Account, Wednesday level",
-      "latest_as_of": "2026-10-21",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
       "max_age_days": 12,
       "name": "Treasury General Account",
-      "observation_count": 13,
+      "observation_count": 14,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -216,7 +216,7 @@
     "refresh_model": "scheduled_static_bundle",
     "update_contract": "MESA_INTEL_DATA_URL"
   },
-  "generated_at": "2026-10-30T02:41:53+00:00",
+  "generated_at": "2026-10-30T02:54:08+00:00",
   "schema_version": "1.1.0",
   "sensors": {
     "bank_reserves": {
@@ -230,11 +230,35 @@
         "primary_source": "Federal Reserve Board H.4.1",
         "unit": "million_usd"
       },
-      "delta": -61332.0,
+      "delta": -74286.0,
       "delta_period": "weekly",
-      "history_end": "2026-10-21",
+      "history_end": "2026-10-28",
       "history_start": "2026-07-29",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-28",
+        "data_kind": "observed",
+        "frequency": "weekly",
+        "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
+        "latency": "publication",
+        "metadata": {
+          "h41_series_id": "RESH4R_N.WW",
+          "h41_table": "1",
+          "publication_date_method": "scheduled Thursday after Wednesday level"
+        },
+        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
+        "publication_date": "2026-10-29",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-30T02:54:05+00:00",
+        "sensor_id": "bank_reserves",
+        "source": "Board of Governors of the Federal Reserve System",
+        "source_identifier": "federal_reserve_h41:RESH4R_N.WW",
+        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
+        "status": "ok",
+        "unit": "million_usd",
+        "value": 2895236.0
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-21",
         "data_kind": "observed",
@@ -257,26 +281,6 @@
         "status": "ok",
         "unit": "million_usd",
         "value": 2969522.0
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-14",
-        "data_kind": "observed",
-        "frequency": "weekly",
-        "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-        "publication_date": "2026-10-15",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "bank_reserves",
-        "source": "Board of Governors of the Federal Reserve System",
-        "source_identifier": "federal_reserve_h41:RESH4R_N.WW",
-        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
-        "status": "ok",
-        "unit": "million_usd",
-        "value": 3030854.0
       },
       "provenance": {
         "access": "public",
@@ -370,15 +374,21 @@
           "publication_date": "2026-10-22",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 2969522.0
+        },
+        {
+          "as_of": "2026-10-28",
+          "publication_date": "2026-10-29",
+          "retrieved_at": "2026-10-30T02:54:05+00:00",
+          "value": 2895236.0
         }
       ],
       "update_status": {
-        "age_days": 9,
-        "checked_at": "2026-10-25T20:46:25+00:00",
+        "age_days": 2,
+        "checked_at": "2026-10-30T02:54:07+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-21",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-28",
+        "last_valid_retrieved_at": "2026-10-30T02:54:05+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
         "status": "updated"
@@ -395,11 +405,35 @@
         "primary_source": "Federal Reserve Board H.4.1",
         "unit": "million_usd"
       },
-      "delta": -2035.0,
+      "delta": -7969.0,
       "delta_period": "weekly",
-      "history_end": "2026-10-21",
+      "history_end": "2026-10-28",
       "history_start": "2026-07-29",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-28",
+        "data_kind": "observed",
+        "frequency": "weekly",
+        "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
+        "latency": "publication",
+        "metadata": {
+          "h41_series_id": "RESPPMA_N.WW",
+          "h41_table": "5",
+          "publication_date_method": "scheduled Thursday after Wednesday level"
+        },
+        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
+        "publication_date": "2026-10-29",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-30T02:54:05+00:00",
+        "sensor_id": "fed_balance_assets",
+        "source": "Board of Governors of the Federal Reserve System",
+        "source_identifier": "federal_reserve_h41:RESPPMA_N.WW",
+        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=ccfdc0c8cb86be87af324da79a6f8826&to=",
+        "status": "ok",
+        "unit": "million_usd",
+        "value": 6745635.0
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-21",
         "data_kind": "observed",
@@ -422,26 +456,6 @@
         "status": "ok",
         "unit": "million_usd",
         "value": 6753604.0
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-14",
-        "data_kind": "observed",
-        "frequency": "weekly",
-        "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-        "publication_date": "2026-10-15",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "fed_balance_assets",
-        "source": "Board of Governors of the Federal Reserve System",
-        "source_identifier": "federal_reserve_h41:RESPPMA_N.WW",
-        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=ccfdc0c8cb86be87af324da79a6f8826&to=",
-        "status": "ok",
-        "unit": "million_usd",
-        "value": 6755639.0
       },
       "provenance": {
         "access": "public",
@@ -535,15 +549,21 @@
           "publication_date": "2026-10-22",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 6753604.0
+        },
+        {
+          "as_of": "2026-10-28",
+          "publication_date": "2026-10-29",
+          "retrieved_at": "2026-10-30T02:54:05+00:00",
+          "value": 6745635.0
         }
       ],
       "update_status": {
-        "age_days": 9,
-        "checked_at": "2026-10-25T20:46:25+00:00",
+        "age_days": 2,
+        "checked_at": "2026-10-30T02:54:07+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-21",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-28",
+        "last_valid_retrieved_at": "2026-10-30T02:54:05+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
         "status": "updated"
@@ -7094,11 +7114,7 @@
         "frequency": "daily",
         "instrument": "OFR Financial Stress Index credit-market contribution",
         "latency": "publication",
-        "metadata": {
-          "citation": "Office of Financial Research Financial Stress Index",
-          "ofr_fsi_column": "Credit",
-          "publication_date_method": "dataset date"
-        },
+        "metadata": {},
         "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
         "publication_date": "2026-10-26",
         "quality": "official_primary",
@@ -47919,11 +47935,7 @@
         "frequency": "daily",
         "instrument": "OFR Financial Stress Index United States contribution",
         "latency": "publication",
-        "metadata": {
-          "citation": "Office of Financial Research Financial Stress Index",
-          "ofr_fsi_column": "United States",
-          "publication_date_method": "dataset date"
-        },
+        "metadata": {},
         "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
         "publication_date": "2026-10-26",
         "quality": "official_primary",
@@ -88745,20 +88757,15 @@
         "frequency": "daily",
         "instrument": "NY Fed ON RRP accepted amount",
         "latency": "publication",
-        "metadata": {
-          "last_updated": "2026-10-28 13:15:29",
-          "operation_id": "RP 102826 26",
-          "publication_date_method": "operation_date",
-          "unit_conversion": "USD / 1,000,000,000"
-        },
+        "metadata": {},
         "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
         "publication_date": "2026-10-28",
         "quality": "official_primary",
         "retrieved_at": "2026-10-29T02:30:52+00:00",
         "sensor_id": "on_rrp_usage",
         "source": "Federal Reserve Bank of New York",
-        "source_identifier": "nyfed_on_rrp:RP 102826 26",
-        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-29&operationTypes=Reverse+Repo&method=fixed&term=overnight",
+        "source_identifier": "nyfed_on_rrp:RP 102926 26",
+        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-30&operationTypes=Reverse+Repo&method=fixed&term=overnight",
         "status": "ok",
         "unit": "billion_usd",
         "value": 0.176
@@ -91538,11 +91545,35 @@
         "primary_source": "Federal Reserve Board H.4.1",
         "unit": "million_usd"
       },
-      "delta": 59330.0,
+      "delta": 70479.0,
       "delta_period": "weekly",
-      "history_end": "2026-10-21",
+      "history_end": "2026-10-28",
       "history_start": "2026-07-29",
       "latest": {
+        "access": "public",
+        "as_of": "2026-10-28",
+        "data_kind": "observed",
+        "frequency": "weekly",
+        "instrument": "U.S. Treasury General Account, Wednesday level",
+        "latency": "publication",
+        "metadata": {
+          "h41_series_id": "RESPPLLDT_N.WW",
+          "h41_table": "1",
+          "publication_date_method": "scheduled Thursday after Wednesday level"
+        },
+        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
+        "publication_date": "2026-10-29",
+        "quality": "official_primary",
+        "retrieved_at": "2026-10-30T02:54:05+00:00",
+        "sensor_id": "tga_balance",
+        "source": "Board of Governors of the Federal Reserve System",
+        "source_identifier": "federal_reserve_h41:RESPPLLDT_N.WW",
+        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
+        "status": "ok",
+        "unit": "million_usd",
+        "value": 1015632.0
+      },
+      "previous": {
         "access": "public",
         "as_of": "2026-10-21",
         "data_kind": "observed",
@@ -91565,26 +91596,6 @@
         "status": "ok",
         "unit": "million_usd",
         "value": 945153.0
-      },
-      "previous": {
-        "access": "public",
-        "as_of": "2026-10-14",
-        "data_kind": "observed",
-        "frequency": "weekly",
-        "instrument": "U.S. Treasury General Account, Wednesday level",
-        "latency": "publication",
-        "metadata": {},
-        "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-        "publication_date": "2026-10-15",
-        "quality": "official_primary",
-        "retrieved_at": "2026-10-25T20:19:51+00:00",
-        "sensor_id": "tga_balance",
-        "source": "Board of Governors of the Federal Reserve System",
-        "source_identifier": "federal_reserve_h41:RESPPLLDT_N.WW",
-        "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
-        "status": "ok",
-        "unit": "million_usd",
-        "value": 885823.0
       },
       "provenance": {
         "access": "public",
@@ -91678,15 +91689,21 @@
           "publication_date": "2026-10-22",
           "retrieved_at": "2026-10-25T20:19:51+00:00",
           "value": 945153.0
+        },
+        {
+          "as_of": "2026-10-28",
+          "publication_date": "2026-10-29",
+          "retrieved_at": "2026-10-30T02:54:05+00:00",
+          "value": 1015632.0
         }
       ],
       "update_status": {
-        "age_days": 9,
-        "checked_at": "2026-10-25T20:46:25+00:00",
+        "age_days": 2,
+        "checked_at": "2026-10-30T02:54:07+00:00",
         "detail": "source check passed",
         "label": "actualizado",
-        "last_valid_as_of": "2026-10-21",
-        "last_valid_retrieved_at": "2026-10-25T20:19:51+00:00",
+        "last_valid_as_of": "2026-10-28",
+        "last_valid_retrieved_at": "2026-10-30T02:54:05+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
         "status": "updated"
@@ -91737,10 +91754,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "TC_10YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field TC_10YEAR.",
         "publication_date": "2026-10-28",
         "quality": "official_primary",
@@ -93074,10 +93088,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 10-Year Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "BC_10YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field BC_10YEAR.",
         "publication_date": "2026-10-28",
         "quality": "official_primary",
@@ -94411,10 +94422,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 2-Year Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "BC_2YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field BC_2YEAR.",
         "publication_date": "2026-10-28",
         "quality": "official_primary",
@@ -95712,7 +95720,7 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-10-25T20:46:25+00:00",
+      "checked_at": "2026-10-30T02:54:07+00:00",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "h41",
       "status": "ok"
