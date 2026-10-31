@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-10-20",
-      "created_at": "2026-10-30T02:54:07+00:00",
+      "created_at": "2026-10-31T02:30:44+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-10-20",
       "mode": "weekly",
@@ -76,11 +76,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_credit",
       "instrument": "OFR Financial Stress Index credit-market contribution",
-      "latest_as_of": "2026-10-27",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "OFR FSI credit contribution",
-      "observation_count": 6789,
+      "observation_count": 6790,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -90,11 +90,11 @@
       "group_name": "credit",
       "id": "ofr_fsi_us",
       "instrument": "OFR Financial Stress Index United States contribution",
-      "latest_as_of": "2026-10-27",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-28",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "OFR FSI United States contribution",
-      "observation_count": 6789,
+      "observation_count": 6790,
       "primary_source": "Office of Financial Research",
       "unit": "standard_deviation_contribution"
     },
@@ -132,11 +132,11 @@
       "group_name": "liquidity",
       "id": "on_rrp_usage",
       "instrument": "NY Fed ON RRP accepted amount",
-      "latest_as_of": "2026-10-29",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-30",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 456,
+      "observation_count": 916,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -160,11 +160,11 @@
       "group_name": "rates",
       "id": "us10y_real_yield",
       "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
-      "latest_as_of": "2026-10-29",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-30",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y real yield",
-      "observation_count": 208,
+      "observation_count": 209,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -174,11 +174,11 @@
       "group_name": "rates",
       "id": "us10y_yield",
       "instrument": "U.S. Treasury 10-Year Constant Maturity",
-      "latest_as_of": "2026-10-29",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-30",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 10Y yield",
-      "observation_count": 208,
+      "observation_count": 209,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     },
@@ -188,16 +188,16 @@
       "group_name": "rates",
       "id": "us2y_yield",
       "instrument": "U.S. Treasury 2-Year Constant Maturity",
-      "latest_as_of": "2026-10-29",
-      "latest_retrieved_at": "2026-10-30T02:41:15+00:00",
+      "latest_as_of": "2026-10-30",
+      "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "U.S. Treasury 2Y yield",
-      "observation_count": 208,
+      "observation_count": 209,
       "primary_source": "U.S. Treasury",
       "unit": "percent"
     }
   ],
-  "generated_at": "2026-10-30T02:54:08+00:00",
+  "generated_at": "2026-10-31T02:30:45+00:00",
   "observations": {
     "bank_reserves": {
       "access": "public",
@@ -431,7 +431,7 @@
     },
     "ofr_fsi_credit": {
       "access": "public",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "data_kind": "derived",
       "frequency": "daily",
       "instrument": "OFR Financial Stress Index credit-market contribution",
@@ -442,20 +442,20 @@
         "publication_date_method": "dataset date"
       },
       "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-      "publication_date": "2026-10-27",
+      "publication_date": "2026-10-28",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "ofr_fsi_credit",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr_fsi:credit",
       "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
       "status": "ok",
       "unit": "standard_deviation_contribution",
-      "value": -0.891
+      "value": -0.915
     },
     "ofr_fsi_us": {
       "access": "public",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "data_kind": "derived",
       "frequency": "daily",
       "instrument": "OFR Financial Stress Index United States contribution",
@@ -466,41 +466,41 @@
         "publication_date_method": "dataset date"
       },
       "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-      "publication_date": "2026-10-27",
+      "publication_date": "2026-10-28",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "ofr_fsi_us",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr_fsi:united_states",
       "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
       "status": "ok",
       "unit": "standard_deviation_contribution",
-      "value": -1.092
+      "value": -1.139
     },
     "on_rrp_usage": {
       "access": "public",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "data_kind": "observed",
       "frequency": "daily",
       "instrument": "NY Fed ON RRP accepted amount",
       "latency": "publication",
       "metadata": {
-        "last_updated": "2026-10-29 13:15:42",
-        "operation_id": "RP 102926 26",
+        "last_updated": "2026-10-30 13:15:35",
+        "operation_id": "RP 103026 26",
         "publication_date_method": "operation_date",
         "unit_conversion": "USD / 1,000,000,000"
       },
       "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-10-30",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "on_rrp_usage",
       "source": "Federal Reserve Bank of New York",
-      "source_identifier": "nyfed_on_rrp:RP 102926 26",
-      "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-30&operationTypes=Reverse+Repo&method=fixed&term=overnight",
+      "source_identifier": "nyfed_on_rrp:RP 103026 26",
+      "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-10-31&operationTypes=Reverse+Repo&method=fixed&term=overnight",
       "status": "ok",
       "unit": "billion_usd",
-      "value": 0.353
+      "value": 4.375
     },
     "tga_balance": {
       "access": "public",
@@ -528,7 +528,7 @@
     },
     "us10y_real_yield": {
       "access": "public",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "data_kind": "observed",
       "frequency": "daily",
       "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
@@ -538,20 +538,20 @@
         "treasury_field": "TC_10YEAR"
       },
       "methodology": "Official Treasury daily par yield curve field TC_10YEAR.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-10-30",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "us10y_real_yield",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury:TC_10YEAR",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
       "status": "ok",
       "unit": "percent",
-      "value": 2.63
+      "value": 2.6
     },
     "us10y_yield": {
       "access": "public",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "data_kind": "observed",
       "frequency": "daily",
       "instrument": "U.S. Treasury 10-Year Constant Maturity",
@@ -561,20 +561,20 @@
         "treasury_field": "BC_10YEAR"
       },
       "methodology": "Official Treasury daily par yield curve field BC_10YEAR.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-10-30",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "us10y_yield",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury:BC_10YEAR",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
       "status": "ok",
       "unit": "percent",
-      "value": 4.98
+      "value": 4.94
     },
     "us2y_yield": {
       "access": "public",
-      "as_of": "2026-10-29",
+      "as_of": "2026-10-30",
       "data_kind": "observed",
       "frequency": "daily",
       "instrument": "U.S. Treasury 2-Year Constant Maturity",
@@ -584,16 +584,16 @@
         "treasury_field": "BC_2YEAR"
       },
       "methodology": "Official Treasury daily par yield curve field BC_2YEAR.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-10-30",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:41:15+00:00",
+      "retrieved_at": "2026-10-31T02:30:11+00:00",
       "sensor_id": "us2y_yield",
       "source": "U.S. Department of the Treasury",
       "source_identifier": "treasury:BC_2YEAR",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
       "status": "ok",
       "unit": "percent",
-      "value": 4.61
+      "value": 4.56
     }
   },
   "publication_status": "public_static_data",
@@ -603,8 +603,24 @@
   "validation": {
     "blocking_issue_count": 0,
     "connected_count": 12,
-    "issue_count": 0,
-    "issues": [],
+    "issue_count": 3,
+    "issues": [
+      {
+        "detail": "11 days",
+        "sensor_id": "nq_cot_asset_manager_net",
+        "type": "stale"
+      },
+      {
+        "detail": "11 days",
+        "sensor_id": "nq_cot_leveraged_funds_net",
+        "type": "stale"
+      },
+      {
+        "detail": "11 days",
+        "sensor_id": "nq_cot_open_interest",
+        "type": "stale"
+      }
+    ],
     "sensor_count": 12,
     "status": "ok"
   }
