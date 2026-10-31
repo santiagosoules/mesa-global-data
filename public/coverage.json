@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:30:45+00:00",
+  "generated_at": "2026-10-31T02:46:17+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -8,11 +8,11 @@
       "group_name": "cot",
       "id": "nq_cot_asset_manager_net",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated asset manager net",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -22,11 +22,11 @@
       "group_name": "cot",
       "id": "nq_cot_leveraged_funds_net",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated leveraged funds net",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -36,11 +36,11 @@
       "group_name": "cot",
       "id": "nq_cot_open_interest",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated open interest",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -110,7 +110,7 @@
       "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 916,
+      "observation_count": 457,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -173,7 +173,7 @@
   ],
   "sources": [
     {
-      "checked_at": "2026-10-25T20:46:26+00:00",
+      "checked_at": "2026-10-31T02:46:17+00:00",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc",
       "status": "ok"

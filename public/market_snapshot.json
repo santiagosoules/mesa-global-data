@@ -1,6 +1,32 @@
 {
   "analyses": [
     {
+      "as_of": "2026-10-27",
+      "created_at": "2026-10-31T02:46:17+00:00",
+      "evidence_level": "derived_from_official_observations",
+      "id": "cot_nq_mnq_reconciliation_2026-10-27",
+      "mode": "weekly",
+      "payload": {
+        "corrected_conclusion": "Leveraged Funds were net short on a consolidated, NQ-equivalent basis; the NQ-only +950 net omitted the MNQ -86,381 net.",
+        "derived_consolidated_net_nq_equivalent": -5619.1,
+        "derived_weekly_change_nq_equivalent": 2069.0,
+        "methodology": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
+        "mnq_net_contracts": -79201,
+        "mnq_net_nq_equivalent": -7920.1,
+        "nq_net_contracts": 2301,
+        "official_consolidated_net_nq_equivalent": -5619,
+        "official_weekly_change_nq_equivalent": 2069,
+        "rounding_note": "CFTC 20974+ is reported in whole NQ-equivalent contracts.",
+        "source_codes": {
+          "consolidated": "20974+",
+          "mnq": "209747",
+          "nq": "209742"
+        },
+        "source_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip"
+      },
+      "title": "CFTC NQ/MNQ leveraged funds reconciliation"
+    },
+    {
       "as_of": "2026-10-20",
       "created_at": "2026-10-31T02:30:44+00:00",
       "evidence_level": "derived_from_official_observations",
@@ -34,11 +60,11 @@
       "group_name": "cot",
       "id": "nq_cot_asset_manager_net",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated asset manager net",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -48,11 +74,11 @@
       "group_name": "cot",
       "id": "nq_cot_leveraged_funds_net",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated leveraged funds net",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -62,11 +88,11 @@
       "group_name": "cot",
       "id": "nq_cot_open_interest",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
-      "latest_as_of": "2026-10-20",
-      "latest_retrieved_at": "2026-10-25T20:19:51+00:00",
+      "latest_as_of": "2026-10-27",
+      "latest_retrieved_at": "2026-10-31T02:46:16+00:00",
       "max_age_days": 10,
       "name": "NQ/MNQ consolidated open interest",
-      "observation_count": 42,
+      "observation_count": 43,
       "primary_source": "CFTC TFF Futures Only",
       "unit": "nq_equivalent_contracts"
     },
@@ -136,7 +162,7 @@
       "latest_retrieved_at": "2026-10-31T02:30:11+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 916,
+      "observation_count": 457,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -197,7 +223,7 @@
       "unit": "percent"
     }
   ],
-  "generated_at": "2026-10-31T02:30:45+00:00",
+  "generated_at": "2026-10-31T02:46:17+00:00",
   "observations": {
     "bank_reserves": {
       "access": "public",
@@ -249,7 +275,7 @@
     },
     "nq_cot_asset_manager_net": {
       "access": "public",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-27",
       "data_kind": "derived",
       "frequency": "weekly",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
@@ -269,50 +295,50 @@
         "reconciliation": {
           "category": "asset_manager",
           "derived_consolidated": {
-            "net_nq_equivalent": 78766.8,
-            "weekly_change_nq_equivalent": 2364.8
+            "net_nq_equivalent": 66371.9,
+            "weekly_change_nq_equivalent": -12394.9
           },
           "mnq": {
-            "change_net": -1022,
-            "change_nq_equivalent": -102.2,
-            "long": 10247,
-            "net": 9768,
-            "net_nq_equivalent": 976.8000000000001,
-            "short": 479
+            "change_net": 141,
+            "change_nq_equivalent": 14.100000000000001,
+            "long": 10538,
+            "net": 9909,
+            "net_nq_equivalent": 990.9000000000001,
+            "short": 629
           },
           "mnq_to_nq_factor": 0.1,
           "normalization": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
           "nq": {
-            "change_net": 2467,
-            "long": 109985,
-            "net": 77790,
-            "short": 32195
+            "change_net": -12409,
+            "long": 106192,
+            "net": 65381,
+            "short": 40811
           },
           "official_consolidated": {
-            "long": 110983,
-            "net_nq_equivalent": 78767,
-            "short": 32216,
-            "weekly_change_nq_equivalent": 2365
+            "long": 107246,
+            "net_nq_equivalent": 66372,
+            "short": 40874,
+            "weekly_change_nq_equivalent": -12395
           },
-          "rounding_discrepancy": 0.19999999999708962,
-          "weekly_change_rounding_discrepancy": 0.1999999999998181
+          "rounding_discrepancy": 0.10000000000582077,
+          "weekly_change_rounding_discrepancy": -0.1000000000003638
         }
       },
       "methodology": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
-      "publication_date": "2026-10-23",
+      "publication_date": "2026-10-30",
       "quality": "official_primary_reconciled",
-      "retrieved_at": "2026-10-25T20:19:51+00:00",
+      "retrieved_at": "2026-10-31T02:46:16+00:00",
       "sensor_id": "nq_cot_asset_manager_net",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc:20974+:asset_manager",
       "source_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
       "status": "ok",
       "unit": "nq_equivalent_contracts",
-      "value": 78767.0
+      "value": 66372.0
     },
     "nq_cot_leveraged_funds_net": {
       "access": "public",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-27",
       "data_kind": "derived",
       "frequency": "weekly",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
@@ -332,50 +358,50 @@
         "reconciliation": {
           "category": "leveraged_funds",
           "derived_consolidated": {
-            "net_nq_equivalent": -7688.1,
-            "weekly_change_nq_equivalent": 14202.7
+            "net_nq_equivalent": -5619.1,
+            "weekly_change_nq_equivalent": 2069.0
           },
           "mnq": {
-            "change_net": 16597,
-            "change_nq_equivalent": 1659.7,
-            "long": 8979,
-            "net": -86381,
-            "net_nq_equivalent": -8638.1,
-            "short": 95360
+            "change_net": 7180,
+            "change_nq_equivalent": 718.0,
+            "long": 8423,
+            "net": -79201,
+            "net_nq_equivalent": -7920.1,
+            "short": 87624
           },
           "mnq_to_nq_factor": 0.1,
           "normalization": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
           "nq": {
-            "change_net": 12543,
-            "long": 51749,
-            "net": 950,
-            "short": 50799
+            "change_net": 1351,
+            "long": 51171,
+            "net": 2301,
+            "short": 48870
           },
           "official_consolidated": {
-            "long": 48053,
-            "net_nq_equivalent": -7688,
-            "short": 55741,
-            "weekly_change_nq_equivalent": 14203
+            "long": 48004,
+            "net_nq_equivalent": -5619,
+            "short": 53623,
+            "weekly_change_nq_equivalent": 2069
           },
           "rounding_discrepancy": 0.1000000000003638,
-          "weekly_change_rounding_discrepancy": 0.2999999999992724
+          "weekly_change_rounding_discrepancy": 0.0
         }
       },
       "methodology": "NQ equivalent = NQ contracts + MNQ contracts * (USD 2/point / USD 20/point)",
-      "publication_date": "2026-10-23",
+      "publication_date": "2026-10-30",
       "quality": "official_primary_reconciled",
-      "retrieved_at": "2026-10-25T20:19:51+00:00",
+      "retrieved_at": "2026-10-31T02:46:16+00:00",
       "sensor_id": "nq_cot_leveraged_funds_net",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc:20974+:leveraged_funds",
       "source_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
       "status": "ok",
       "unit": "nq_equivalent_contracts",
-      "value": -7688.0
+      "value": -5619.0
     },
     "nq_cot_open_interest": {
       "access": "public",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-27",
       "data_kind": "observed",
       "frequency": "weekly",
       "instrument": "CFTC NASDAQ-100 Consolidated Futures Only",
@@ -394,40 +420,40 @@
         "publication_date_method": "HTTP Last-Modified",
         "reconciliation": {
           "derived_consolidated": {
-            "open_interest": 285882.2,
-            "weekly_change": -8893.3
+            "open_interest": 281668.5,
+            "weekly_change": -4213.7
           },
           "mnq": {
-            "open_interest": 134202,
-            "open_interest_nq_equivalent": 13420.2,
-            "weekly_change": -18403,
-            "weekly_change_nq_equivalent": -1840.3000000000002
+            "open_interest": 131605,
+            "open_interest_nq_equivalent": 13160.5,
+            "weekly_change": -2597,
+            "weekly_change_nq_equivalent": -259.7
           },
           "mnq_to_nq_factor": 0.1,
           "normalization": "NQ equivalent = NQ contracts + MNQ contracts * 0.1",
           "nq": {
-            "open_interest": 272462,
-            "weekly_change": -7053
+            "open_interest": 268508,
+            "weekly_change": -3954
           },
           "official_consolidated": {
-            "open_interest": 285882,
-            "weekly_change": -8893
+            "open_interest": 281669,
+            "weekly_change": -4214
           },
-          "rounding_discrepancy": -0.20000000001164153,
-          "weekly_change_rounding_discrepancy": 0.2999999999992724
+          "rounding_discrepancy": 0.5,
+          "weekly_change_rounding_discrepancy": -0.3000000000001819
         }
       },
       "methodology": "NQ equivalent = NQ contracts + MNQ contracts * 0.1",
-      "publication_date": "2026-10-23",
+      "publication_date": "2026-10-30",
       "quality": "official_primary_reconciled",
-      "retrieved_at": "2026-10-25T20:19:51+00:00",
+      "retrieved_at": "2026-10-31T02:46:16+00:00",
       "sensor_id": "nq_cot_open_interest",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc:20974+:open_interest",
       "source_url": "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip",
       "status": "ok",
       "unit": "nq_equivalent_contracts",
-      "value": 285882.0
+      "value": 281669.0
     },
     "ofr_fsi_credit": {
       "access": "public",
@@ -603,24 +629,8 @@
   "validation": {
     "blocking_issue_count": 0,
     "connected_count": 12,
-    "issue_count": 3,
-    "issues": [
-      {
-        "detail": "11 days",
-        "sensor_id": "nq_cot_asset_manager_net",
-        "type": "stale"
-      },
-      {
-        "detail": "11 days",
-        "sensor_id": "nq_cot_leveraged_funds_net",
-        "type": "stale"
-      },
-      {
-        "detail": "11 days",
-        "sensor_id": "nq_cot_open_interest",
-        "type": "stale"
-      }
-    ],
+    "issue_count": 0,
+    "issues": [],
     "sensor_count": 12,
     "status": "ok"
   }
