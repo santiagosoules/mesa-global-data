@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-10-27",
-      "created_at": "2026-11-06T03:29:36+00:00",
+      "created_at": "2026-11-06T03:38:24+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-10-27",
       "mode": "weekly",
@@ -130,11 +130,11 @@
       "group_name": "fed",
       "id": "fed_balance_assets",
       "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
-      "latest_as_of": "2026-10-28",
-      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
+      "latest_as_of": "2026-11-04",
+      "latest_retrieved_at": "2026-11-06T03:38:22+00:00",
       "max_age_days": 12,
       "name": "Federal Reserve total assets",
-      "observation_count": 14,
+      "observation_count": 15,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -144,11 +144,11 @@
       "group_name": "liquidity",
       "id": "bank_reserves",
       "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
-      "latest_as_of": "2026-10-28",
-      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
+      "latest_as_of": "2026-11-04",
+      "latest_retrieved_at": "2026-11-06T03:38:22+00:00",
       "max_age_days": 12,
       "name": "Reserve balances",
-      "observation_count": 14,
+      "observation_count": 15,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -162,7 +162,7 @@
       "latest_retrieved_at": "2026-11-06T03:28:59+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 924,
+      "observation_count": 461,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -172,11 +172,11 @@
       "group_name": "liquidity",
       "id": "tga_balance",
       "instrument": "U.S. Treasury General Account, Wednesday level",
-      "latest_as_of": "2026-10-28",
-      "latest_retrieved_at": "2026-10-30T02:54:05+00:00",
+      "latest_as_of": "2026-11-04",
+      "latest_retrieved_at": "2026-11-06T03:38:22+00:00",
       "max_age_days": 12,
       "name": "Treasury General Account",
-      "observation_count": 14,
+      "observation_count": 15,
       "primary_source": "Federal Reserve Board H.4.1",
       "unit": "million_usd"
     },
@@ -223,11 +223,11 @@
       "unit": "percent"
     }
   ],
-  "generated_at": "2026-11-06T03:29:37+00:00",
+  "generated_at": "2026-11-06T03:38:24+00:00",
   "observations": {
     "bank_reserves": {
       "access": "public",
-      "as_of": "2026-10-28",
+      "as_of": "2026-11-04",
       "data_kind": "observed",
       "frequency": "weekly",
       "instrument": "Reserve balances with Federal Reserve Banks, Wednesday level",
@@ -238,20 +238,20 @@
         "publication_date_method": "scheduled Thursday after Wednesday level"
       },
       "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-11-05",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:54:05+00:00",
+      "retrieved_at": "2026-11-06T03:38:22+00:00",
       "sensor_id": "bank_reserves",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "federal_reserve_h41:RESH4R_N.WW",
       "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
       "status": "ok",
       "unit": "million_usd",
-      "value": 2895236.0
+      "value": 2962804.0
     },
     "fed_balance_assets": {
       "access": "public",
-      "as_of": "2026-10-28",
+      "as_of": "2026-11-04",
       "data_kind": "observed",
       "frequency": "weekly",
       "instrument": "Federal Reserve H.4.1 total assets, Wednesday level",
@@ -262,16 +262,16 @@
         "publication_date_method": "scheduled Thursday after Wednesday level"
       },
       "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-11-05",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:54:05+00:00",
+      "retrieved_at": "2026-11-06T03:38:22+00:00",
       "sensor_id": "fed_balance_assets",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "federal_reserve_h41:RESPPMA_N.WW",
       "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=ccfdc0c8cb86be87af324da79a6f8826&to=",
       "status": "ok",
       "unit": "million_usd",
-      "value": 6745635.0
+      "value": 6748145.0
     },
     "nq_cot_asset_manager_net": {
       "access": "public",
@@ -530,7 +530,7 @@
     },
     "tga_balance": {
       "access": "public",
-      "as_of": "2026-10-28",
+      "as_of": "2026-11-04",
       "data_kind": "observed",
       "frequency": "weekly",
       "instrument": "U.S. Treasury General Account, Wednesday level",
@@ -541,16 +541,16 @@
         "publication_date_method": "scheduled Thursday after Wednesday level"
       },
       "methodology": "Official H.4.1 Wednesday-level series from the Federal Reserve Data Download Program.",
-      "publication_date": "2026-10-29",
+      "publication_date": "2026-11-05",
       "quality": "official_primary",
-      "retrieved_at": "2026-10-30T02:54:05+00:00",
+      "retrieved_at": "2026-11-06T03:38:22+00:00",
       "sensor_id": "tga_balance",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "federal_reserve_h41:RESPPLLDT_N.WW",
       "source_url": "https://www.federalreserve.gov/datadownload/DownloadTable.aspx?filetype=spreadsheetml&from=&label=include&lastobs=400&layout=seriescolumn&rel=H41&series=f52e72511be65e16f71d4f5858951312&to=",
       "status": "ok",
       "unit": "million_usd",
-      "value": 1015632.0
+      "value": 936248.0
     },
     "us10y_real_yield": {
       "access": "public",
