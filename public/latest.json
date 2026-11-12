@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:51:49+00:00",
+  "generated_at": "2026-11-12T03:54:52+00:00",
   "observations": {
     "bank_reserves": {
       "access": "public",
@@ -233,7 +233,7 @@
     },
     "ofr_fsi_credit": {
       "access": "public",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "data_kind": "derived",
       "frequency": "daily",
       "instrument": "OFR Financial Stress Index credit-market contribution",
@@ -244,20 +244,20 @@
         "publication_date_method": "dataset date"
       },
       "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-      "publication_date": "2026-11-06",
+      "publication_date": "2026-11-09",
       "quality": "official_primary",
-      "retrieved_at": "2026-11-11T02:51:10+00:00",
+      "retrieved_at": "2026-11-12T03:54:14+00:00",
       "sensor_id": "ofr_fsi_credit",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr_fsi:credit",
       "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
       "status": "ok",
       "unit": "standard_deviation_contribution",
-      "value": -0.857
+      "value": -0.872
     },
     "ofr_fsi_us": {
       "access": "public",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "data_kind": "derived",
       "frequency": "daily",
       "instrument": "OFR Financial Stress Index United States contribution",
@@ -268,16 +268,16 @@
         "publication_date_method": "dataset date"
       },
       "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
-      "publication_date": "2026-11-06",
+      "publication_date": "2026-11-09",
       "quality": "official_primary",
-      "retrieved_at": "2026-11-11T02:51:10+00:00",
+      "retrieved_at": "2026-11-12T03:54:14+00:00",
       "sensor_id": "ofr_fsi_us",
       "source": "U.S. Office of Financial Research",
       "source_identifier": "ofr_fsi:united_states",
       "source_url": "https://www.financialresearch.gov/financial-stress-index/data/fsi.csv",
       "status": "ok",
       "unit": "standard_deviation_contribution",
-      "value": -0.783
+      "value": -1.024
     },
     "on_rrp_usage": {
       "access": "public",
