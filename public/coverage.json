@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T03:28:05+00:00",
+  "generated_at": "2026-11-13T03:33:46+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -110,7 +110,7 @@
       "latest_retrieved_at": "2026-11-13T03:27:27+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 932,
+      "observation_count": 465,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -179,10 +179,10 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-11-06T03:38:24+00:00",
+      "checked_at": "2026-11-13T03:33:46+00:00",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "h41",
-      "status": "ok"
+      "status": "error"
     },
     {
       "checked_at": "2026-11-13T03:28:04+00:00",

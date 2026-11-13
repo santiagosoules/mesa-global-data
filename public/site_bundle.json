@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-11-03",
-      "created_at": "2026-11-13T03:28:04+00:00",
+      "created_at": "2026-11-13T03:33:46+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-11-03",
       "mode": "weekly",
@@ -188,7 +188,7 @@
       "latest_retrieved_at": "2026-11-13T03:27:27+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 932,
+      "observation_count": 465,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -268,7 +268,7 @@
     "refresh_model": "scheduled_static_bundle",
     "update_contract": "MESA_INTEL_DATA_URL"
   },
-  "generated_at": "2026-11-13T03:28:05+00:00",
+  "generated_at": "2026-11-13T03:33:46+00:00",
   "schema_version": "1.1.0",
   "sensors": {
     "bank_reserves": {
@@ -438,14 +438,14 @@
       ],
       "update_status": {
         "age_days": 9,
-        "checked_at": "2026-11-06T03:38:24+00:00",
-        "detail": "source check passed",
-        "label": "actualizado",
+        "checked_at": "2026-11-13T03:33:46+00:00",
+        "detail": "source check failed",
+        "label": "error de fuente",
         "last_valid_as_of": "2026-11-04",
         "last_valid_retrieved_at": "2026-11-06T03:38:22+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
-        "status": "updated"
+        "status": "source_error"
       }
     },
     "fed_balance_assets": {
@@ -615,14 +615,14 @@
       ],
       "update_status": {
         "age_days": 9,
-        "checked_at": "2026-11-06T03:38:24+00:00",
-        "detail": "source check passed",
-        "label": "actualizado",
+        "checked_at": "2026-11-13T03:33:46+00:00",
+        "detail": "source check failed",
+        "label": "error de fuente",
         "last_valid_as_of": "2026-11-04",
         "last_valid_retrieved_at": "2026-11-06T03:38:22+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
-        "status": "updated"
+        "status": "source_error"
       }
     },
     "nq_cot_asset_manager_net": {
@@ -7456,11 +7456,7 @@
         "frequency": "daily",
         "instrument": "OFR Financial Stress Index credit-market contribution",
         "latency": "publication",
-        "metadata": {
-          "citation": "Office of Financial Research Financial Stress Index",
-          "ofr_fsi_column": "Credit",
-          "publication_date_method": "dataset date"
-        },
+        "metadata": {},
         "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
         "publication_date": "2026-11-09",
         "quality": "official_primary",
@@ -48341,11 +48337,7 @@
         "frequency": "daily",
         "instrument": "OFR Financial Stress Index United States contribution",
         "latency": "publication",
-        "metadata": {
-          "citation": "Office of Financial Research Financial Stress Index",
-          "ofr_fsi_column": "United States",
-          "publication_date_method": "dataset date"
-        },
+        "metadata": {},
         "methodology": "Official OFR Financial Stress Index component contribution, measured in standard deviations.",
         "publication_date": "2026-11-09",
         "quality": "official_primary",
@@ -89227,20 +89219,15 @@
         "frequency": "daily",
         "instrument": "NY Fed ON RRP accepted amount",
         "latency": "publication",
-        "metadata": {
-          "last_updated": "2026-11-10 13:15:23",
-          "operation_id": "RP 111026 26",
-          "publication_date_method": "operation_date",
-          "unit_conversion": "USD / 1,000,000,000"
-        },
+        "metadata": {},
         "methodology": "Accepted amount for official fixed-rate overnight reverse repo operation; USD converted to billions.",
         "publication_date": "2026-11-10",
         "quality": "official_primary",
         "retrieved_at": "2026-11-11T02:51:10+00:00",
         "sensor_id": "on_rrp_usage",
         "source": "Federal Reserve Bank of New York",
-        "source_identifier": "nyfed_on_rrp:RP 111026 26",
-        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-11-11&operationTypes=Reverse+Repo&method=fixed&term=overnight",
+        "source_identifier": "nyfed_on_rrp:RP 111226 26",
+        "source_url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2025-01-01&endDate=2026-11-13&operationTypes=Reverse+Repo&method=fixed&term=overnight",
         "status": "ok",
         "unit": "billion_usd",
         "value": 0.152
@@ -92230,14 +92217,14 @@
       ],
       "update_status": {
         "age_days": 9,
-        "checked_at": "2026-11-06T03:38:24+00:00",
-        "detail": "source check passed",
-        "label": "actualizado",
+        "checked_at": "2026-11-13T03:33:46+00:00",
+        "detail": "source check failed",
+        "label": "error de fuente",
         "last_valid_as_of": "2026-11-04",
         "last_valid_retrieved_at": "2026-11-06T03:38:22+00:00",
         "max_age_days": 12,
         "source_identifier": "h41",
-        "status": "updated"
+        "status": "source_error"
       }
     },
     "us10y_real_yield": {
@@ -92285,10 +92272,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 10-Year TIPS Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "TC_10YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field TC_10YEAR.",
         "publication_date": "2026-11-10",
         "quality": "official_primary",
@@ -93676,10 +93660,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 10-Year Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "BC_10YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field BC_10YEAR.",
         "publication_date": "2026-11-10",
         "quality": "official_primary",
@@ -95067,10 +95048,7 @@
         "frequency": "daily",
         "instrument": "U.S. Treasury 2-Year Constant Maturity",
         "latency": "publication",
-        "metadata": {
-          "publication_date_method": "effective_date",
-          "treasury_field": "BC_2YEAR"
-        },
+        "metadata": {},
         "methodology": "Official Treasury daily par yield curve field BC_2YEAR.",
         "publication_date": "2026-11-10",
         "quality": "official_primary",
@@ -96422,10 +96400,10 @@
       "status": "ok"
     },
     {
-      "checked_at": "2026-11-06T03:38:24+00:00",
+      "checked_at": "2026-11-13T03:33:46+00:00",
       "source": "Board of Governors of the Federal Reserve System",
       "source_identifier": "h41",
-      "status": "ok"
+      "status": "error"
     },
     {
       "checked_at": "2026-11-13T03:28:04+00:00",
