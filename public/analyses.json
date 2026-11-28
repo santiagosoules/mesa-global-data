@@ -2,7 +2,7 @@
   "analyses": [
     {
       "as_of": "2026-11-17",
-      "created_at": "2026-11-28T04:46:41+00:00",
+      "created_at": "2026-11-28T04:59:45+00:00",
       "evidence_level": "derived_from_official_observations",
       "id": "cot_nq_mnq_reconciliation_2026-11-17",
       "mode": "weekly",
@@ -105,6 +105,6 @@
       "title": "CFTC NQ/MNQ leveraged funds reconciliation"
     }
   ],
-  "generated_at": "2026-11-28T04:46:42+00:00",
+  "generated_at": "2026-11-28T04:59:45+00:00",
   "schema_version": "1.1.0"
 }

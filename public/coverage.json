@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T04:46:42+00:00",
+  "generated_at": "2026-11-28T04:59:45+00:00",
   "schema_version": "1.1.0",
   "sensors": [
     {
@@ -110,7 +110,7 @@
       "latest_retrieved_at": "2026-11-28T04:46:06+00:00",
       "max_age_days": 5,
       "name": "Overnight reverse repo usage",
-      "observation_count": 952,
+      "observation_count": 475,
       "primary_source": "Federal Reserve Bank of New York",
       "unit": "billion_usd"
     },
@@ -173,7 +173,7 @@
   ],
   "sources": [
     {
-      "checked_at": "2026-11-21T04:18:47+00:00",
+      "checked_at": "2026-11-28T04:59:45+00:00",
       "source": "U.S. Commodity Futures Trading Commission",
       "source_identifier": "cftc",
       "status": "ok"
